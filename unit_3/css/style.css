@@ -1,0 +1,7 @@
+body {
+	background-color: purple;
+	text-align: center;
+	font-family: Helvetica;
+	background: url(images/colored_pencil.jpg);
+	background-size: cover;
+}
