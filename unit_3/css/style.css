@@ -1,7 +1,15 @@
 body {
-	background-color: purple;
+	background: url("images/colored_pencil_copy.jpg");
 	text-align: center;
 	font-family: Helvetica;
-	background: url(images/colored_pencil.jpg);
+	background: url(colored_pencil_copy.jpg);
 	background-size: cover;
+}
+
+h1 {text-align: left;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 1150px;
 }
