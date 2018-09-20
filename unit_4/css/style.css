@@ -7,47 +7,21 @@
 }
 
 span {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 	color: red;
 }
 
-div {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-	color: black;
-}
-
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-	padding: 10px 0;
-}
-
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-	text-align: right;
-	font-style: normal;
-}
-
 aside {
-	background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
 	padding: 10px;
 	text-align: center;
 	display: block;
 }
 
-article {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+div {
+	color: black;
+}
+
+header {
+	padding: 10px 0;
 }
 
 body {
@@ -74,6 +48,11 @@ h2 {
 	font-weight: 900;
 	font-size: 18px;
 	line-height: 2;
+}
+
+nav {
+	text-align: right;
+	font-style: normal;
 }
 
 p {
