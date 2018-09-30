@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	color: black;
+}
+
+header { 
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	text-transform: uppercase;
+	color: purple;
+}
+
+h2 {
+	font-family: 'Noto Serif', serif;
+}
+
+nav {
+	font-family: noto serif, sans-serif;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+	text-align: right;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+aside {
+	font-family: noto serif, sans-serif;
+	background-color: #FFC675;
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px
+}
+
+img {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Noto Serif', serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#donate {
+	color: orange;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+#two-columns {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.social {
+	font-family: 'Noto Serif', serif;
+	text-align: right;
+}
+
+.black {
+	color: black;
+}
+
+#header {
+	border-bottom: 1px solid #000;
