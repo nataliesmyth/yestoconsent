@@ -6,6 +6,13 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	max-width: 1200px;
+	margin: 2em auto;
+}
+
 div {
 	background-color: #FFE2B8;
     border: 1px black solid;
@@ -37,6 +44,12 @@ nav {
 	text-align: right;
 }
 
+a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
 a:hover {
 	background-color: #aaaaaa;
 }
@@ -50,24 +63,22 @@ aside {
 }
 
 article {
+	width: 100%
 	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px
 }
 
 img {
-	width: 600px;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
-body {
-	font-family: 'Varela Round', sans-serif;
-	font-size: 16px;
-}
-
 p {
 	font-family: 'Noto Serif', serif;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 ul {
@@ -84,6 +95,7 @@ ul {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px
+	width: 30em;
 }
 
 #left {
@@ -91,7 +103,7 @@ ul {
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 30%;
+	width: 45%;
 }
 
 #right {
@@ -99,7 +111,7 @@ ul {
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 30em;
 }
 
 .clearfix:after {
@@ -111,18 +123,17 @@ ul {
 }
 
 .container {
+	float: left
 	width: 100%;
-	max-width: 1024px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .social {
+	float: right;
 	font-family: 'Noto Serif', serif;
 	text-align: right;
-}
-
-.black {
-	color: black;
+	width: 40%;
 }
 
 #header {
