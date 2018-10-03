@@ -18,8 +18,9 @@ div {
 	color: black;
 }
 
-header { 
-    padding: 20px;
+header {
+    padding: 10px; 
+    margin: 2em auto;
 }
 
 h1 {
@@ -33,30 +34,14 @@ h3 {
 }
 
 nav {
-	font-family: noto serif, sans-serif;
+	font-family: 'Noto Serif', serif;
     padding: 20px;
     text-align: right;
 }
 
-a {
-	color: #000;
-}
-
 a:hover {
 	background-color: #aaaaaa;
-}
-
-aside {
-	font-family: noto serif, sans-serif;
-	text-align: center;
-	display: block;
-	padding: 20px;
-}
-
-article {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	padding: 10px;
 }
 
 img {
@@ -76,26 +61,29 @@ ul {
 }
 
 #donate {
-	color: orange;
+	background-color: orange;
 	text-transform: uppercase;
 	font-style: normal;
+	padding: 10px;
 }
 
 #two-columns {
+	background-color: #E582A2;
 	padding: 20px;
+	margin: 2em auto;
 }
 
-#left {
-	background-color: #E582A2;
-	border: 1px black solid;
+#contact {
+	text-align: right;
+}
+
+.left {
 	padding: 20px;
 	float: left;
 	width: 50%;
 }
 
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
+.right {
 	padding: 20px;
 	float: left;
 	width: 50%;
@@ -115,7 +103,7 @@ ul {
 }
 
 .container {
-	width: 100%;
+	width: 30%;
 	max-width: 1200px;
 	margin: 0 auto;
 	float: left;
