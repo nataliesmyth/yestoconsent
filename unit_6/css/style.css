@@ -14,15 +14,11 @@ body {
 }
 
 div {
-	background-color: #FFE2B8;
-    border: 1px black solid;
     padding: 20px;
 	color: black;
 }
 
 header { 
-    background-color: #FFED74;
-    border: 1px black solid;
     padding: 20px;
 }
 
@@ -30,24 +26,22 @@ h1 {
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	color: purple;
+	float: left;
 }
 
-h2 {
+h3 {
 	font-family: 'Noto Serif', serif;
 }
 
 nav {
 	font-family: noto serif, sans-serif;
-    background-color: #E8C66A;
-    border: 1px black solid;
     padding: 20px;
-	text-align: right;
+    text-align: right;
 }
 
 a {
 	text-decoration: none;
 	color: #000;
-	border-bottom: 1px solid #000;
 }
 
 a:hover {
@@ -63,10 +57,9 @@ aside {
 }
 
 article {
-	width: 100%
 	background-color: #E89C6C;
     border: 1px black solid;
-    padding: 20px
+    padding: 20px;
 }
 
 img {
@@ -94,7 +87,7 @@ ul {
 #two-columns {
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	padding: 20px
+	padding: 20px;
 	width: 30em;
 }
 
@@ -103,15 +96,15 @@ ul {
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 45%;
+	width: 50%;
 }
 
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 30em;
+	float: left;
+	width: 50%;
 }
 
 .clearfix:after {
@@ -122,19 +115,19 @@ ul {
 	height: 0;
 }
 
+.logo {
+	width: 50%;
+}
+
 .container {
-	float: left
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+	float: left;
 }
 
 .social {
 	float: right;
 	font-family: 'Noto Serif', serif;
-	text-align: right;
-	width: 40%;
+	width: 50%;
 }
-
-#header {
-	border-bottom: 1px solid #000;
