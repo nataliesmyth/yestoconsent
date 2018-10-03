@@ -26,7 +26,6 @@ h1 {
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	color: purple;
-	float: left;
 }
 
 h3 {
@@ -40,7 +39,6 @@ nav {
 }
 
 a {
-	text-decoration: none;
 	color: #000;
 }
 
@@ -50,7 +48,6 @@ a:hover {
 
 aside {
 	font-family: noto serif, sans-serif;
-	background-color: #FFC675;
 	text-align: center;
 	display: block;
 	padding: 20px;
@@ -85,10 +82,7 @@ ul {
 }
 
 #two-columns {
-	background-color: #FFB7CF;
-	border: 1px black solid;
 	padding: 20px;
-	width: 30em;
 }
 
 #left {
@@ -117,6 +111,7 @@ ul {
 
 .logo {
 	width: 50%;
+	float: left;
 }
 
 .container {
