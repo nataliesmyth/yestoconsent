@@ -9,21 +9,9 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;
-	max-width: 1200px;
-	margin: 2em auto;
 }
 
-div {
-    padding: 20px;
-	color: black;
-}
-
-header {
-    padding: 10px; 
-    margin: 2em auto;
-}
-
-h1 {
+h2 {
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	color: purple;
@@ -35,13 +23,15 @@ h3 {
 
 nav {
 	font-family: 'Noto Serif', serif;
-    padding: 20px;
     text-align: right;
 }
 
+nav a {
+	display: inline-block;
+	padding: 10px;
+}
 a:hover {
 	background-color: #aaaaaa;
-	padding: 10px;
 }
 
 img {
@@ -60,28 +50,50 @@ ul {
 	list-style-type: none;
 }
 
+footer {
+	font-family: 'noto serif', serif;
+	padding: 10px;
+}
+
 #donate {
 	background-color: orange;
 	text-transform: uppercase;
 	font-style: normal;
-	padding: 10px;
 }
 
 #two-columns {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
 	background-color: #E582A2;
-	padding: 20px;
-	margin: 2em auto;
+}
+
+#contact {
+	text-align: right;
+}
+
+.maxwidth {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#two-columns .maxwidth {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .left {
-	padding: 20px;
-	float: left;
 	width: 50%;
 }
 
 .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	text-align: center;
 	padding: 20px;
-	float: left;
 	width: 50%;
 }
 
@@ -98,15 +110,39 @@ ul {
 	float: left;
 }
 
+#threecolumns {
+	display: flex;
+	justify-content: space-between;
+}
+
 .container {
-	width: 30%;
-	max-width: 1200px;
-	margin: 0 auto;
-	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	text-align: center;
+	width: 33.33%;
+	/*height: 150px;*/
+}
+
+.container a{ 
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .social {
 	float: right;
-	font-family: 'Noto Serif', serif;
-	width: 50%;
+}
+
+.social a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+
+.social a:last-child {
+	margin-right: 0;
 }
