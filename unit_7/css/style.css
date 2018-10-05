@@ -110,6 +110,22 @@ footer {
 	float: left;
 }
 
+#bookaworkshop {
+	font-family: 'Varela Round', sans-serif;
+	margin: 2em auto;
+	text-align: center;
+	background-color: #ccccd4;
+	text-transform: uppercase;
+	font-style: bold;
+	padding-top: 20px;
+	padding: 10px;
+	width: 20em;
+}
+
+#bookaworkshop a{
+	color: #000
+}
+
 #threecolumns {
 	display: flex;
 	justify-content: space-between;
@@ -120,13 +136,15 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid black;
+	border: 4px solid #fff;
 	text-align: center;
 	width: 33.33%;
+	background-color: #ccccd4;
 	/*height: 150px;*/
 }
 
-.container a{ 
+.container a { 
+	color: #000;
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
