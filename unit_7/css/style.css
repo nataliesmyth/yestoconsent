@@ -49,6 +49,7 @@ p {
 }
 
 ul {
+	width: 30%;
 	list-style-type: none;
 }
 
@@ -68,6 +69,13 @@ footer {
 	flex-wrap: nowrap;
 	background-color: #E582A2;
 }
+
+#abttwo-columns {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding-top: 20px;
+	}
 
 #contact {
 	text-align: right;
@@ -111,7 +119,17 @@ footer {
 	width: 50%;
 }
 
-.workshoplist {
+.rightP {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 15px;
+	width: 50%;
+}
+
+#workshoplist {
 	line-height: 2em;
 }
 
@@ -145,11 +163,26 @@ footer {
 	color: #000
 }
 
+#workshopsweoffer {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2.5em;
+	margin: .5em auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: bold;
+	width: 20em;
+	line-height: 1.5em;
+}
+
 #threecolumns {
 	display: flex;
 	justify-content: space-between;
 }
 
+#workshopthreecolumns {
+	display: flex;
+	justify-content: space-between;
+}
 .container {
 	display: flex;
 	flex-direction: column;
@@ -167,6 +200,17 @@ footer {
 	color: #000;
 	display: block;
 	padding: 10px;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+	width: 33.33%;
+	/*height: 150px;*/
 }
 
 .social {
