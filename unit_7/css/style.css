@@ -12,12 +12,19 @@ body {
 }
 
 h1 {
+	font-size: 32px;
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	color: purple;
 }
 
+h2 {
+	font-family: 'Noto Serif', serif;
+	font-size: 28px;
+}
+
 h3 {
+	font-size: 24px;
 	font-family: 'Noto Serif', serif;
 }
 
@@ -49,24 +56,29 @@ p {
 }
 
 ul {
-	width: 30%;
 	list-style-type: none;
+	font-size: 1.5em;
 }
 
 footer {
 	font-family: 'noto serif', serif;
+	font-size: 1.25em;
+}
+
+form {
+	display: inline-block;
 }
 
 .paypal_btn{
 	display: inline-block;
 	font-family: inherit;
-	font-size: 14px;
+	font-size: 16 px;
 	font-weight: bold;
 	color: #fff;
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
-	background: #ff6600;
+	background: #f48325;
 	border: 0;
 	cursor: pointer;
 	outline: none;
@@ -76,19 +88,12 @@ footer {
 	background: #e05c04;
 }
 
-#two-columns {
+.two-columns {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	background-color: #E582A2;
 }
-
-#abttwo-columns {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: nowrap;
-	padding-top: 20px;
-	}
 
 #contact {
 	text-align: right;
@@ -98,13 +103,6 @@ footer {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 10px;
-}
-
-.about {
-	width: 30em;
-	margin: 0 auto;
-	padding: 20px;
-	float: right;
 }
 
 .ourstory {
@@ -122,28 +120,26 @@ footer {
 	width: 50%;
 }
 
+.left p {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: center;
+	padding-left: 10px;
+}
+
 .right {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 2em;
 	text-align: center;
+	background-color: #E582A2;
 	padding: 20px;
 	width: 50%;
 }
 
-.rightP {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.5em;
-	text-align: center;
-	padding: 15px;
-	width: 50%;
-}
-
-#workshoplist {
-	line-height: 2em;
+.right h2 {
+	font-size: 1.25em;
 }
 
 .clearfix:after {
@@ -157,6 +153,11 @@ footer {
 .logo {
 	width: 50%;
 	float: left;
+}
+
+.logo a {
+	text-decoration: none;
+	background-color: #fff;
 }
 
 #bookaworkshop {
@@ -176,26 +177,53 @@ footer {
 	color: #000
 }
 
-#workshopsweoffer {
+.title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+}
+
+.title p {
+	width: 30em;
+	margin: 2em auto;
+}
+
+#about {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 2.5em;
 	margin: .5em auto;
 	text-align: center;
 	text-transform: uppercase;
 	font-style: bold;
-	width: 20em;
 	line-height: 1.5em;
+	background-color: #E582A2;
+	width: 50%;
+	float: right;
 }
 
-#threecolumns {
+.threecolumns {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-#workshopthreecolumns {
-	display: flex;
-	justify-content: space-between;
+.threecolumns > * {
+	width: 32%;
+	margin-bottom: 1.5%;
+	min-height: 200px;
 }
+
+#workshops li {
+	background-color: #E582A2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#workshop p {
+	font-size: 0.5em;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -213,17 +241,6 @@ footer {
 	color: #000;
 	display: block;
 	padding: 10px;
-}
-
-.container1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	text-align: center;
-	width: 33.33%;
-	/*height: 150px;*/
 }
 
 .social {
