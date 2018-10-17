@@ -29,6 +29,7 @@ h3 {
 }
 
 nav {
+	width: 90%
 	font-family: 'Noto Serif', serif;
     text-align: right;
 }
@@ -72,7 +73,7 @@ form {
 .paypal_btn{
 	display: inline-block;
 	font-family: inherit;
-	font-size: 16 px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
 	text-align: center;
@@ -93,6 +94,7 @@ form {
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	background-color: #E582A2;
+	width: 90%;
 }
 
 #contact {
@@ -249,8 +251,8 @@ form {
 
 .social a {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 20%;
+	height: 20%;
 	margin: 5px;
 }
 
@@ -258,9 +260,8 @@ form {
 	margin-right: 0;
 }
 
-@media only screen and (min-width: 480px) {
-	nav {
+@media only screen and (width: 417px) {
+	header {
 		float: none;
-		width: auto;
 	}
 }
