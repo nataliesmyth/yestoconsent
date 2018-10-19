@@ -1,0 +1,28 @@
+<div class="clearfix">
+<div class="fourcolumns">
+	<div id="media">
+	<a href="https://moneyish.com/ish/this-group-is-teaching-kindergarteners-about-consent/">Moneyish</a>
+</div>
+	<div id="media">
+	<a href="https://broadly.vice.com/en_us/article/evb4xz/teaching-kindergarteners-about-consent">Vice</a>
+</div>
+
+	<div id="media">
+	<a href="https://www.teenvogue.com/story/unwanted-valentines-day-gifts">Teen Vogue</a>
+</div>
+	<div id="media">
+	<a href="https://montclairdispatch.com/yes-empowers-students-consent-education/">The Montclair Dispatch</a>
+</div>
+</div>
+</div>
+
+.fourcolumns {
+	width: 90%;
+	margin: 1em auto;
+}
+
+#media {
+	display: inline-block;
+	width: 24%
+	padding: 1%;
+}

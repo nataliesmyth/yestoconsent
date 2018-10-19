@@ -12,24 +12,23 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 2em;
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
-	color: purple;
+	color: #000;
 }
 
 h2 {
 	font-family: 'Noto Serif', serif;
-	font-size: 28px;
+	font-size: 1.75em;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 1.5em;
 	font-family: 'Noto Serif', serif;
 }
 
 nav {
-	width: 90%
 	font-family: 'Noto Serif', serif;
     text-align: right;
 }
@@ -40,7 +39,7 @@ nav a {
 	padding: 10px;
 }
 
-a:hover {
+nav a:hover {
 	background-color: #aaaaaa;
 }
 
@@ -70,6 +69,14 @@ form {
 	display: inline-block;
 }
 
+hr {
+	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+}
+
 .paypal_btn{
 	display: inline-block;
 	font-family: inherit;
@@ -94,7 +101,7 @@ form {
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	background-color: #E582A2;
-	width: 90%;
+	width: 100%;
 }
 
 #contact {
@@ -160,23 +167,26 @@ form {
 .logo a {
 	text-decoration: none;
 	background-color: #fff;
+
 }
 
 #bookaworkshop {
 	font-family: 'Varela Round', sans-serif;
 	margin: 2em auto;
 	text-align: center;
-	background-color: #ccccd4;
-	text-transform: uppercase;
+	background-color: blue
 	font-style: bold;
-	padding-top: 20px;
-	padding: 10px;
+	padding: 20px;
 	width: 20em;
 }
 
-#bookaworkshop a{
+#bookaworkshop a {
 	font-size: 1.5em;
 	color: #000
+}
+
+#bookaworkshop:hover {
+	background-color: #aaaaa0;
 }
 
 .title {
@@ -260,8 +270,55 @@ form {
 	margin-right: 0;
 }
 
-@media only screen and (width: 417px) {
-	header {
+
+@media only screen and (max-width: 1000px) {
+  nav {
 		float: none;
+		width: auto;
+		display: block;
+	}
+
+	.two-columns {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+    .left {	
+   	width: 100%;
+   	padding: 10%;
+    }
+
+    .right {
+   	width: 100%;
+   	padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	nav {
+		float: none;
+		width: auto;
+		display: inline-block;
+	}
+
+	.threecolumns {
+		width: 100%;
+		display: block; 
+	}
+
+	#workshop li {
+		width: 100%;
+	}
+	
+	.container {
+		display: block;
+		width: 100%;
+		padding-top: 6%;
+	}
+
+	.title p {
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 }
