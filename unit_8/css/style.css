@@ -302,13 +302,9 @@ hr {
 		display: inline-block;
 	}
 
-	.threecolumns {
+	.threecolumns li{
 		width: 100%;
 		display: block; 
-	}
-
-	#workshop li {
-		width: 100%;
 	}
 	
 	.container {
