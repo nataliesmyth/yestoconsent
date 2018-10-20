@@ -154,7 +154,7 @@ hr {
 }
 
 .logo {
-	width: 50%;
+	width: 60%;
 	float: left;
 }
 
@@ -184,15 +184,22 @@ hr {
 }
 
 .title {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10%;
+	padding-bottom: 5%;
 	font-family: 'Varela Round', sans-serif;
 	text-align: center;
 }
 
 .title p {
-	width: 30em;
+	width: 35em;
 	margin: 2em auto;
+	line-height: 2em;
+	text-align: left;
+}
+
+#meetourteam {
+	padding-top: 2%;
+	text-align: center;
 }
 
 #about {
@@ -307,6 +314,11 @@ hr {
 	padding-top: 2em;
 }
 
+@media only screen and (max-width: 1100px) {
+	.footernav {
+		column-count: 2;
+	}
+
 
 @media only screen and (max-width: 1000px) {
   nav {
@@ -322,8 +334,9 @@ hr {
 	}
 
     .left {	
-   	width: 100%;
-   	padding: 10%;
+    margin: 1em auto;
+   	width: 80%;
+   	padding: 1%;
     }
 
     .right {
@@ -331,6 +344,15 @@ hr {
    	padding-bottom: 0px;
     }
 }
+
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
 
 @media only screen and (max-width: 480px) {
 	nav {
