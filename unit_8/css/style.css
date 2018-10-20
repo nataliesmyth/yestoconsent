@@ -80,7 +80,7 @@ hr {
 .paypal_btn{
 	display: inline-block;
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: bold;
 	color: #fff;
 	text-align: center;
@@ -112,12 +112,6 @@ hr {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 10px;
-}
-
-.ourstory {
-	width: 30em;
-	margin: 0 auto;
-	padding: 20px;
 }
 
 #two-columns .maxwidth {
@@ -239,20 +233,18 @@ hr {
 .container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-left: 4px solid #fff;
-	border-right: 4px solid #fff;
-	text-align: center;
-	width: 33.33%;
-	background-color: #ccccd4;
+	justify-content: right;
+	align-items: left;
+	text-align: left;
+	width: 30%;
 	/*height: 150px;*/
 }
 
 .container a { 
+	font-size: .75em;
 	color: #000;
 	display: block;
-	padding: 10px;
+	padding: 2%;
 }
 
 .social {
@@ -268,6 +260,51 @@ hr {
 
 .social a:last-child {
 	margin-right: 0;
+}
+
+.footer {
+	text-decoration: none;
+	padding: 2em 0;
+	color: #fff;
+	background-color: #041030;
+	text-align: left;
+}
+
+.footerhead {
+	margin-left: 2em;
+	width: 30%;
+	margin-bottom: 6em;
+	display: block;
+	font-size: .75em;
+}
+
+.footerinner {
+	display: flex;
+	width: 70%
+	padding-left: 30%;
+
+}
+
+.footernav {
+	flex-wrap: wrap;
+	order: 2;
+	column-gap: 20px;
+	column-count: 3;
+	text-align: left;
+	width: 70%;
+	padding-left: 100px;
+}
+
+.footernav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: .5em;
+}
+
+.footerbottom p {
+	font-size: .75em;
+	margin-left: 2em;
+	padding-top: 2em;
 }
 
 
@@ -316,5 +353,16 @@ hr {
 	.title p {
 		margin-top: 0px;
 		margin-bottom: 0px;
+	}
+
+	.footerhead {
+		display: block;
+		width: 100%;
+	}
+
+	.footernav a{
+		display: block;
+		width: 100%;
+		padding: 0px;
 	}
 }
