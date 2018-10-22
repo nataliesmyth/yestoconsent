@@ -31,9 +31,7 @@ h3 {
 
 h5 {
 	font-size: 1em;
-	font-weight: 100px;
-	width: 30em;
-	margin: 2em auto;
+	text-align: center;
 	line-height: 2em;
 
 }
@@ -110,8 +108,8 @@ hr {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
-	background-color: #E582A2;
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 #contact {
@@ -124,13 +122,13 @@ hr {
 	padding: 10px;
 }
 
+.maxwidth.title {
+	max-width: 640px;
+}
+
 #two-columns .maxwidth {
 	padding-top: 0;
 	padding-bottom: 0;
-}
-
-.left {
-	width: 50%;
 }
 
 .left p {
@@ -140,7 +138,7 @@ hr {
 	padding: 20px;
 }
 
-.right {
+.right, .left {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -149,10 +147,16 @@ hr {
 	background-color: #E582A2;
 	padding: 20px;
 	width: 50%;
+	flex-direction: column;
 }
 
 .right h2 {
 	font-size: 1.25em;
+}
+
+.right img {
+	width: 50%;
+	background-color: #fff;
 }
 
 .clearfix:after {
@@ -193,16 +197,34 @@ hr {
 	background-color: #aaaaa0;
 }
 
+.video{
+	position: relative;
+	max-height: 450px;
+	height: 56.25vw;
+	width: 100%;
+	background-color: orange;
+	margin: 2em auto;
+	max-width: 800px;
+}
+
+.video iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	display: block;
+	width: 100%;
+}
+
 .title {
 	padding-top: 10%;
-	padding-bottom: 5%;
+	padding-right: 10px;
+	padding-left: 10px;
 	font-family: 'Varela Round', sans-serif;
 	text-align: center;
 }
 
 .title p {
-	width: 35em;
-	margin: 2em auto;
 	line-height: 2em;
 	text-align: left;
 }
@@ -242,6 +264,7 @@ hr {
 	flex-direction: row;
 	justify-content: center;
 	background-color: #f0eded;
+	text-align: center;
 }
 
 .fourcolumns a {
@@ -261,10 +284,6 @@ hr {
 
 .media h2 {
 	background-color: #f0eded;
-}
-
-iframe {
-	margin-left: 20%;
 }
 
 #workshops li {
@@ -291,13 +310,17 @@ iframe {
 	font-size: .75em;
 	color: #000;
 	display: block;
-	padding: 2%;
+	padding-bottom: 10px;
 }
 
 .threecolumns {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+#resources {
+	font-size: 1.5em;
 }
 
 .social {
@@ -359,7 +382,6 @@ iframe {
 	margin-left: 2em;
 	padding-top: 2em;
 }
-
 @media only screen and (max-width: 1100px) {
 	.footernav {
 		column-count: 2;
@@ -399,6 +421,13 @@ iframe {
   nav a {
     margin: 0 1.6em .75em 0;
   }
+
+@media only screen and (max-width: 621px) {
+  .threecolumns li{
+		width: 100%;
+		display: block; 
+	}
+}
 
 @media only screen and (max-width: 480px) {
 	nav {
