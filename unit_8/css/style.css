@@ -39,6 +39,7 @@ h5 {
 nav {
 	font-family: 'Noto Serif', serif;
     text-align: right;
+    padding-top: 20px;
 }
 
 nav a {
@@ -145,7 +146,6 @@ hr {
 	font-size: 2em;
 	text-align: center;
 	background-color: #E582A2;
-	padding: 20px;
 	width: 50%;
 	flex-direction: column;
 }
@@ -159,6 +159,8 @@ hr {
 	background-color: #fff;
 }
 
+
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;font-size: 0;
@@ -168,7 +170,6 @@ hr {
 }
 
 .logo {
-	width: 60%;
 	float: left;
 }
 
@@ -179,6 +180,7 @@ hr {
 }
 
 #bookaworkshop {
+	font-size: .75em;
 	font-family: 'Varela Round', sans-serif;
 	margin: 2em auto;
 	text-align: center;
