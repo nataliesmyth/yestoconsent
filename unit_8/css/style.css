@@ -21,11 +21,21 @@ h1 {
 h2 {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.75em;
+	text-align: center;
 }
 
 h3 {
 	font-size: 1.5em;
 	font-family: 'Noto Serif', serif;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 100px;
+	width: 30em;
+	margin: 2em auto;
+	line-height: 2em;
+
 }
 
 nav {
@@ -227,6 +237,35 @@ hr {
 	min-height: 200px;
 }
 
+.fourcolumns {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #f0eded;
+}
+
+.fourcolumns a {
+	margin: 1%;
+	width: 15%;
+	height: 15%
+}
+
+.media {
+	padding-top: 20%;
+	display: flex;
+	width: 23%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.media h2 {
+	background-color: #f0eded;
+}
+
+iframe {
+	margin-left: 20%;
+}
+
 #workshops li {
 	background-color: #E582A2;
 	text-align: center;
@@ -252,6 +291,12 @@ hr {
 	color: #000;
 	display: block;
 	padding: 2%;
+}
+
+.threecolumns {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .social {
