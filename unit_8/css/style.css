@@ -150,6 +150,28 @@ hr {
 	flex-direction: column;
 }
 
+#right, #left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	text-align: center;
+	width: 50%;
+	flex-direction: column;
+}
+
+#right a{
+	color: #000;
+}
+
+#right img {
+	width: 50%;
+}
+
+#left a {
+	color: #000;
+}
+
 .right h2 {
 	font-size: 1.25em;
 }
@@ -184,7 +206,6 @@ hr {
 	font-family: 'Varela Round', sans-serif;
 	margin: 2em auto;
 	text-align: center;
-	background-color: blue
 	font-style: bold;
 	padding: 20px;
 	width: 20em;
@@ -192,7 +213,7 @@ hr {
 
 #bookaworkshop a {
 	font-size: 1.5em;
-	color: #000
+	color: #000;
 }
 
 #bookaworkshop:hover {
@@ -204,7 +225,6 @@ hr {
 	max-height: 450px;
 	height: 56.25vw;
 	width: 100%;
-	background-color: orange;
 	margin: 2em auto;
 	max-width: 800px;
 }
