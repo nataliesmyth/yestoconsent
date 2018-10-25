@@ -211,7 +211,7 @@ hr {
 
 }
 
-#bookaworkshop {
+.bookaworkshop {
 	font-size: .75em;
 	font-family: 'Varela Round', sans-serif;
 	margin: 2em auto;
@@ -221,12 +221,12 @@ hr {
 	width: 20em;
 }
 
-#bookaworkshop a {
+.bookaworkshop a {
 	font-size: 1.5em;
 	color: #000;
 }
 
-#bookaworkshop:hover {
+.bookaworkshop:hover {
 	background-color: #aaaaa0;
 }
 
@@ -457,7 +457,6 @@ li p {
     .left {	
     margin: 1em auto;
    	width: 80%;
-   	padding: 1%;
     }
 
     .right {
