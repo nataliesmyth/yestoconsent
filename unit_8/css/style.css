@@ -74,6 +74,10 @@ footer {
 }
 
 form {
+	display: block;
+}
+
+nav form {
 	display: inline-block;
 }
 

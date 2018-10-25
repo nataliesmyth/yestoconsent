@@ -73,8 +73,21 @@ footer {
 	font-size: 1.25em;
 }
 
-form {
+nav form {
 	display: inline-block;
+}
+
+.form {
+	text-align: center;
+	margin: 2em;
+	line-height: 2em;
+}
+
+
+b {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 50px;
 }
 
 hr {
@@ -179,8 +192,6 @@ hr {
 	width: 50%;
 	background-color: #fff;
 }
-
-
 
 .clearfix:after {
 	visibility: hidden;
@@ -464,6 +475,15 @@ li p {
     	margin: auto;
     	padding: 0px;
     }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
 @media (max-width: 800px) {
