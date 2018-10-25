@@ -434,17 +434,17 @@ li p {
 	margin-left: 2em;
 	padding-top: 2em;
 }
+
 @media only screen and (max-width: 1100px) {
 	.footernav {
 		column-count: 2;
 	}
 
-
 @media only screen and (max-width: 1000px) {
   nav {
 		float: none;
 		width: auto;
-		display: block;
+		display: inline-block;
 	}
 
 	.two-columns {
@@ -475,15 +475,6 @@ li p {
     	margin: auto;
     	padding: 0px;
     }
-}
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
 }
 
 @media (max-width: 800px) {
