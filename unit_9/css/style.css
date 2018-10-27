@@ -73,7 +73,7 @@ footer {
 	font-size: 1.25em;
 }
 
-nav form {
+.paypal {
 	display: inline-block;
 }
 
@@ -533,4 +533,3 @@ li p {
 		width: 100%;
 		padding: 0px;
 	}
-}
