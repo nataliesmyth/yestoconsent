@@ -79,12 +79,8 @@ footer {
 
 .form {
 	text-align: center;
-	margin: 2em
+	margin: 2em;
 	line-height: 2em;
-}
-
-.form h2 {
-	text-align: center;
 }
 
 
@@ -100,10 +96,6 @@ hr {
 	background-color: #3C3C3C;
 	width:2em;
 	margin:1em auto;
-}
-
-textarea:focus, input:focus {
-	border: 2px solid #900;
 }
 
 .paypal_btn{
@@ -336,15 +328,11 @@ textarea:focus, input:focus {
 #workshops li {
 	background-color: #E582A2;
 	text-align: center;
-	padding: 10px;
+	padding-top: 10px;
 }
 
 li p {
 	font-size: .75em;
-}
-
-li h4 {
-	line-height: 1.5em;
 }
 
 #workshop p {
