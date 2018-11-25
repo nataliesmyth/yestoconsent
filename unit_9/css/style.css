@@ -22,6 +22,7 @@ h2 {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.75em;
 	text-align: center;
+	padding-top: 20px;
 }
 
 h3 {
@@ -115,7 +116,7 @@ textarea:focus, input:focus {
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
-	background: #f48325;
+	background: #ff3300;
 	border: 0;
 	cursor: pointer;
 	outline: none;
@@ -126,11 +127,11 @@ textarea:focus, input:focus {
 }
 
 .two-columns {
+	background-color: #d6f5f2;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	width: 100%;
-	margin-bottom: 30px;
 }
 
 #contact {
@@ -165,7 +166,7 @@ textarea:focus, input:focus {
 	align-items: center;
 	font-size: 2em;
 	text-align: center;
-	background-color: #E582A2;
+	background-color: #f2a699;
 	width: 50%;
 	flex-direction: column;
 }
@@ -193,7 +194,10 @@ textarea:focus, input:focus {
 }
 
 .right h2 {
-	font-size: 1.25em;
+	font-size: 1em;
+	color: #fe4704;
+	margin: 40px;
+	text-align: center;
 }
 
 .right img {
@@ -211,6 +215,7 @@ textarea:focus, input:focus {
 
 .logo {
 	float: left;
+	padding-top: 20px;
 }
 
 .logo a {
@@ -230,8 +235,8 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop a {
-	font-size: 1.5em;
-	color: #000;
+	font-size: 1.25em;
+	color: #fe4704;
 }
 
 .bookaworkshop:hover {
@@ -315,6 +320,8 @@ textarea:focus, input:focus {
 
 .fourcolumns a {
 	color: #000;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 15%;
@@ -334,7 +341,7 @@ textarea:focus, input:focus {
 }
 
 #workshops li {
-	background-color: #E582A2;
+	background-color: #f2a598;
 	text-align: center;
 	padding: 10px;
 }
@@ -394,15 +401,25 @@ li h4 {
 }
 
 .social a:last-child {
-	margin-right: 0;
+	margin-right: 100px;
 }
 
 .footer {
 	text-decoration: none;
 	padding: 2em 0;
 	color: #fff;
-	background-color: #041030;
+	background-color: #4a4a4a;
 	text-align: left;
+}
+
+.footersocial {
+	padding: 10px;
+	background-color: #ff3300;
+}
+
+.footersocial p {
+	display: inline;
+	color: #FFF;
 }
 
 .footerhead {
@@ -486,7 +503,10 @@ li h4 {
     	margin: auto;
     	padding: 0px;
     }
-}
+
+    #left h4 {
+    	text-decoration: none;
+    }
 
 @media (max-width: 800px) {
   nav {
