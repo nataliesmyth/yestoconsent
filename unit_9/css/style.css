@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Arimo:700');
 
 * {
 	margin: 0;
@@ -7,19 +7,19 @@
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
 }
 
 h1 {
 	font-size: 2em;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Amiro', sans-serif;
 	text-transform: uppercase;
 	color: #000;
 }
 
 h2 {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
 	font-size: 1.75em;
 	text-align: center;
 	padding-top: 20px;
@@ -27,7 +27,7 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
-	font-family: 'Noto Serif', serif;
+	font-family: 'AAmiro', sans-serif;
 }
 
 h5 {
@@ -37,7 +37,7 @@ h5 {
 }
 
 nav {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
     text-align: right;
     padding-top: 20px;
 }
@@ -59,7 +59,7 @@ img {
 }
 
 p {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -70,7 +70,7 @@ ul {
 }
 
 footer {
-	font-family: 'noto serif', serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 1.25em;
 }
 
@@ -225,8 +225,8 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop {
-	font-size: .75em;
-	font-family: 'Varela Round', sans-serif;
+	font-size: 1em;
+	font-family: 'Arimo', sans-serif;
 	margin: 2em auto;
 	text-align: center;
 	font-style: bold;
@@ -235,7 +235,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop a {
-	font-size: 1.25em;
+	font-size: 1em;
 	color: #fe4704;
 }
 
@@ -266,7 +266,7 @@ textarea:focus, input:focus {
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 20px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	text-align: center;
 }
 
@@ -286,7 +286,7 @@ textarea:focus, input:focus {
 }
 
 #about {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 2.5em;
 	margin: .5em auto;
 	text-align: center;
