@@ -274,10 +274,18 @@ textarea:focus, input:focus {
 	padding: 10px;
 }
 
+.title h4 {
+	color: #ff3300;
+}
+
+.title hr {
+	margin-bottom: 40px;
+}
+
 .title p {
 	line-height: 2em;
-	text-align: left;
-	padding: 10px;
+	text-align: center;
+	padding: 20px;
 }
 
 #meetourteam {
@@ -305,7 +313,8 @@ textarea:focus, input:focus {
 }
 
 .threecolumns > * {
-	width: 32%;
+	width: 100%;
+	margin: 2em auto;
 	margin-bottom: 1.5%;
 	min-height: 200px;
 }
@@ -341,7 +350,7 @@ textarea:focus, input:focus {
 }
 
 #workshops li {
-	background-color: #f2a598;
+	background-color: #;
 	text-align: center;
 	padding: 10px;
 }
@@ -353,6 +362,8 @@ li p {
 li h4 {
 	line-height: 1.5em;
 }
+
+
 
 #workshop p {
 	font-size: 0.5em;
