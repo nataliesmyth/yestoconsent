@@ -22,17 +22,17 @@ h2 {
 	font-family: 'Amiro', sans-serif;
 	font-size: 1.75em;
 	text-align: center;
-	padding-top: 20px;
 }
 
 h3 {
 	font-size: 1.5em;
-	font-family: 'AAmiro', sans-serif;
+	font-family: 'Amiro', sans-serif;
 }
 
 h5 {
 	font-size: 1em;
 	line-height: 2em;
+	text-align: center;
 
 }
 
@@ -141,7 +141,12 @@ textarea:focus, input:focus {
 }
 
 .twocolumns p {
+	width: 32em;
 	text-align: center;
+}
+
+.media {
+	padding: 10px;
 }
 
 #contact {
@@ -161,6 +166,47 @@ textarea:focus, input:focus {
 #two-columns .maxwidth {
 	padding-top: 0;
 	padding-bottom: 0;
+}
+
+.meetourteam {
+	background-color: #ff3300;
+}
+
+.meetourteam h2 {
+	color: #FFF;
+}
+
+.ourteam {
+	background-color: #d6f5f2;
+	display: flex;
+	justify-content: center;
+}
+
+.ourteamleft {
+	padding: 20px;
+	justify-content: center;
+	align-items: right;
+	width: 20%;
+	flex-direction: column;
+}
+
+.ourteamright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	text-align: left;
+	width: 40%;
+	flex-direction: column;
+	line-height: 1.5em;
+}
+
+.ourteam p {
+	line-height: 1.5em;
+}
+
+.meetourteam {
+	padding: 10px;
 }
 
 .left p {
@@ -240,11 +286,10 @@ textarea:focus, input:focus {
 	margin: 2em auto;
 	text-align: center;
 	padding: 20px;
-	width: 10em;
+	width: 20em;
 }
 
 .bookaworkshop a {
-	font-size: 1em;
 	color: #fe4704;
 }
 
@@ -285,6 +330,9 @@ textarea:focus, input:focus {
 
 .title h4 {
 	color: #ff3300;
+	width: 32em;
+	margin: 2em auto;
+	line-height: 1.5em;
 }
 
 .title hr {
@@ -292,14 +340,11 @@ textarea:focus, input:focus {
 }
 
 .title p {
+	width: 40em;
 	line-height: 2em;
 	text-align: center;
 	padding: 20px;
-}
-
-#meetourteam {
-	padding-top: 2%;
-	text-align: center;
+	margin: auto;
 }
 
 #about {
@@ -344,18 +389,6 @@ textarea:focus, input:focus {
 	margin-right: 10px;
 	width: 15%;
 	height: 15%
-}
-
-.media {
-	display: flex;
-	width: 23%;
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: #f0eded;
-}
-
-.media h2 {
-	padding: 10px;
 }
 
 #workshops li {
