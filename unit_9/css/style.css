@@ -137,7 +137,7 @@ textarea:focus, input:focus {
 .twocolumns {
 	background-color: #d6f5f2;
 	width: 100%;
-	padding-top: 10px;
+	padding: 10px;
 }
 
 .twocolumns p {
@@ -184,25 +184,20 @@ textarea:focus, input:focus {
 
 .ourteamleft {
 	padding: 20px;
-	justify-content: center;
-	align-items: right;
 	width: 20%;
-	flex-direction: column;
 }
 
 .ourteamright {
-	display: flex;
+	padding: 20px;
 	justify-content: center;
-	align-items: center;
-	font-size: 1em;
-	text-align: left;
-	width: 40%;
-	flex-direction: column;
+	width: 24em;
 	line-height: 1.5em;
 }
 
-.ourteam p {
-	line-height: 1.5em;
+.ourteamleft h4 {
+	padding: 5px;
+	text-align: center;
+	font-size: 1.25em;
 }
 
 .meetourteam {
