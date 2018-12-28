@@ -168,11 +168,12 @@ textarea:focus, input:focus {
 	padding-bottom: 0;
 }
 
-.meetourteam {
+.banner {
 	background-color: #ff3300;
+	padding-bottom: 0px;
 }
 
-.meetourteam h2 {
+.banner h2 {
 	color: #FFF;
 }
 
@@ -248,7 +249,6 @@ textarea:focus, input:focus {
 	font-size: 1em;
 	color: #fe4704;
 	margin: 40px;
-	text-align: center;
 }
 
 .right img {
@@ -335,7 +335,7 @@ textarea:focus, input:focus {
 }
 
 .title p {
-	width: 40em;
+	width: 32em;
 	line-height: 2em;
 	text-align: center;
 	padding: 20px;
@@ -443,9 +443,9 @@ li h4 {
 
 .social a {
 	display: inline-block;
-	width: 20px;
+	width: 30px;
 	height: 20px;
-	margin: 5px;
+	padding: 5px;
 }
 
 .social a:last-child {
