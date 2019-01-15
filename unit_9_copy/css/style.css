@@ -21,7 +21,7 @@ h1 {
 h2 {
 	padding: 10px;
 	font-family: 'Amiro', sans-serif;
-	font-size: 1.75em;
+	font-size: 1em;
 	text-align: center;
 }
 
@@ -129,10 +129,12 @@ textarea:focus, input:focus {
 }
 
 .two-columns {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: nowrap;
-	width: 100%;
+	margin: 2em auto;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	text-align: center;
+	width: 50%;
 }
 
 .twocolumns {
@@ -144,6 +146,36 @@ textarea:focus, input:focus {
 .twocolumns p {
 	width: 32em;
 	text-align: center;
+}
+
+.coloringbook {
+	display: flex;
+	background-color: #d6f5f2;
+}
+
+#right, #left {
+	margin: auto;
+	font-size: 2em;
+	text-align: center;
+	width: 50%;
+	flex-direction: column;
+}
+
+#right a{
+	color: #000;
+}
+
+#right img {
+	width: 50%;
+}
+
+#left a {
+	color: #000;
+	padding-bottom: 10px;
+}
+
+#left a:hover {
+	background-color: #aaaaa0;
 }
 
 .media {
@@ -210,45 +242,6 @@ textarea:focus, input:focus {
 	line-height: 1.5em;
 	text-align: center;
 	padding: 20px;
-}
-
-.right, .left {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2em;
-	text-align: center;
-	background-color: #f2a699;
-	width: 50%;
-	flex-direction: column;
-}
-
-#right, #left {
-	background-color: #d6f5f2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2em;
-	text-align: center;
-	width: 50%;
-	flex-direction: column;
-}
-
-#right a{
-	color: #000;
-}
-
-#right img {
-	width: 50%;
-}
-
-#left a {
-	color: #000;
-	padding-bottom: 10px;
-}
-
-#left a:hover {
-	background-color: #aaaaa0;
 }
 
 .right h2 {
