@@ -37,10 +37,9 @@ h3 {
 }
 
 h5 {
+	padding: 10px;
 	font-size: 1em;
 	line-height: 2em;
-	text-align: center;
-
 }
 
 nav {
@@ -333,10 +332,6 @@ textarea:focus, input:focus {
 .title {
 	font-family: 'Arimo', sans-serif;
 	text-align: center;
-}
-
-.title h5 {
-	padding: 0px;
 }
 
 .title h4 {
