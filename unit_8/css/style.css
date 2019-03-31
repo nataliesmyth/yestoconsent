@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Arimo:700');
 
 * {
 	margin: 0;
@@ -7,44 +7,53 @@
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
+}
+
+header {
+	height: 100px;
 }
 
 h1 {
 	font-size: 2em;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Amiro', sans-serif;
 	text-transform: uppercase;
 	color: #000;
 }
 
 h2 {
-	font-family: 'Noto Serif', serif;
+	padding: 10px;
+	font-family: 'Amiro', sans-serif;
 	font-size: 1.75em;
 	text-align: center;
 }
 
 h3 {
 	font-size: 1.5em;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
+	margin: 2em auto;
+	width: 32em;
 }
 
 h5 {
 	font-size: 1em;
 	line-height: 2em;
+	text-align: center;
 
 }
 
 nav {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
     text-align: right;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 nav a {
 	color: black;
 	display: inline-block;
 	padding: 10px;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -58,7 +67,7 @@ img {
 }
 
 p {
-	font-family: 'Noto Serif', serif;
+	font-family: 'Amiro', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -69,16 +78,29 @@ ul {
 }
 
 footer {
-	font-family: 'noto serif', serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 1.25em;
 }
 
-form {
-	display: block;
+.paypal {
+	display: inline-block;
 }
 
-nav form {
-	display: inline-block;
+.form {
+	text-align: center;
+	margin: 2em
+	line-height: 2em;
+}
+
+.form h2 {
+	text-align: center;
+}
+
+
+b {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 50px;
 }
 
 hr {
@@ -87,6 +109,10 @@ hr {
 	background-color: #3C3C3C;
 	width:2em;
 	margin:1em auto;
+}
+
+textarea:focus, input:focus {
+	border: 2px solid #900;
 }
 
 .paypal_btn{
@@ -98,7 +124,7 @@ hr {
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
-	background: #f48325;
+	background: #ff3300;
 	border: 0;
 	cursor: pointer;
 	outline: none;
@@ -113,7 +139,32 @@ hr {
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	width: 100%;
-	margin-bottom: 30px;
+}
+
+.two-columns-media {
+	display: flex;
+	margin: 40px;
+	background-color: #fe4704;
+}
+
+.two-columns-media h2 {
+	background-color: #d6f5f2;
+	padding: 50px;
+}
+
+.twocolumns {
+	background-color: #d6f5f2;
+	width: 100%;
+	padding: 10px;
+}
+
+.twocolumns p {
+	width: 32em;
+	text-align: center;
+}
+
+.media {
+	padding: 10px;
 }
 
 #contact {
@@ -135,6 +186,42 @@ hr {
 	padding-bottom: 0;
 }
 
+.banner {
+	background-color: #ff3300;
+}
+
+.banner h2 {
+	color: #FFF;
+}
+
+.ourteam {
+	background-color: #d6f5f2;
+	display: flex;
+	justify-content: center;
+}
+
+.ourteamleft {
+	padding: 20px;
+	width: 20%;
+}
+
+.ourteamright {
+	padding: 20px;
+	justify-content: center;
+	width: 24em;
+	line-height: 1.5em;
+}
+
+.ourteamleft h4 {
+	padding: 5px;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.meetourteam {
+	padding: 10px;
+}
+
 .left p {
 	font-size: 1.25em;
 	line-height: 1.5em;
@@ -143,17 +230,14 @@ hr {
 }
 
 .right, .left {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-size: 2em;
 	text-align: center;
-	background-color: #E582A2;
-	width: 50%;
-	flex-direction: column;
+	width: 75%;
+	margin: auto;
 }
 
 #right, #left {
+	background-color: #d6f5f2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -173,18 +257,23 @@ hr {
 
 #left a {
 	color: #000;
+	padding-bottom: 10px;
 }
 
-.right h2 {
-	font-size: 1.25em;
+#left a:hover {
+	background-color: #aaaaa0;
+}
+
+.left h2, .right h2 {
+	font-size: .75em;
+	color: #000;
+	font-weight: 100;
 }
 
 .right img {
 	width: 50%;
 	background-color: #fff;
 }
-
-
 
 .clearfix:after {
 	visibility: hidden;
@@ -196,6 +285,8 @@ hr {
 
 .logo {
 	float: left;
+	width: 15%;
+	padding: 10px;
 }
 
 .logo a {
@@ -204,23 +295,21 @@ hr {
 
 }
 
-#bookaworkshop {
-	font-size: .75em;
-	font-family: 'Varela Round', sans-serif;
-	margin: 2em auto;
+.bookaworkshop {
+	font-size: 1em;
+	font-family: 'Arimo', sans-serif;
+	margin: 1em auto;
 	text-align: center;
-	font-style: bold;
-	padding: 20px;
-	width: 20em;
+	padding: 10px;
+	width: 10em;
 }
 
-#bookaworkshop a {
-	font-size: 1.5em;
-	color: #000;
+.bookaworkshop a {
+	color: #fe4704;
 }
 
-#bookaworkshop:hover {
-	background-color: #aaaaa0;
+.bookaworkshop:hover {
+	font-size: 1.25em;
 }
 
 .video{
@@ -242,31 +331,34 @@ hr {
 }
 
 .title {
-	padding-top: 10%;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 20px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	text-align: center;
 }
 
-.title h2, h5{
-	padding: 10px;
+.title h5 {
+	padding: 0px;
+}
+
+.title h4 {
+	width: 32em;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+
+.title hr {
+	margin-bottom: 40px;
 }
 
 .title p {
+	width: 32em;
 	line-height: 2em;
-	text-align: left;
-	padding: 10px;
-}
-
-#meetourteam {
-	padding-top: 2%;
 	text-align: center;
+	padding: 20px;
+	margin: auto;
 }
 
 #about {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 2.5em;
 	margin: .5em auto;
 	text-align: center;
@@ -285,7 +377,8 @@ hr {
 }
 
 .threecolumns > * {
-	width: 32%;
+	width: 100%;
+	margin: 2em auto;
 	margin-bottom: 1.5%;
 	min-height: 200px;
 }
@@ -295,38 +388,33 @@ hr {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	padding-bottom: 60px;
 }
 
 .fourcolumns a {
 	color: #000;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 15%;
 	height: 15%
 }
 
-.media {
-	display: flex;
-	width: 23%;
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: #f0eded;
-}
-
-.media h2 {
-	padding: 10px;
-}
-
 #workshops li {
-	background-color: #E582A2;
+	background-color: #;
 	text-align: center;
-	padding-top: 10px;
+	padding: 10px;
 }
 
 li p {
 	font-size: .75em;
 }
+
+li h4 {
+	line-height: 1.5em;
+}
+
+
 
 #workshop p {
 	font-size: 0.5em;
@@ -369,29 +457,37 @@ li p {
 
 .social a {
 	display: inline-block;
-	width: 20px;
+	width: 30px;
 	height: 20px;
-	margin: 5px;
+	padding: 5px;
 }
 
 .social a:last-child {
-	margin-right: 0;
+	margin-right: 100px;
 }
 
 .footer {
 	text-decoration: none;
 	padding: 2em 0;
 	color: #fff;
-	background-color: #041030;
+	background-color: #4a4a4a;
 	text-align: left;
+}
+
+.footersocial {
+	padding: 10px;
+	background-color: #ff3300;
+}
+
+.footersocial p {
+	display: inline;
+	color: #FFF;
 }
 
 .footerhead {
 	margin-left: 2em;
-	width: 30%;
-	margin-bottom: 6em;
+	width: 25%;
 	display: block;
-	font-size: .75em;
 }
 
 .footerinner {
@@ -409,6 +505,7 @@ li p {
 	text-align: left;
 	width: 70%;
 	padding-left: 100px;
+	padding-top: 10px;
 }
 
 .footernav a{
@@ -416,59 +513,72 @@ li p {
 	font-size: .5em;
 }
 
-.footerbottom p {
-	font-size: .75em;
-	margin-left: 2em;
+.footerbottom small {
+	font-size: .5em;
+	margin-left: 3em;
 	padding-top: 2em;
 }
 
-.footerbottom small {
-	font-size: .5em;
-	margin-left: 2em;
-	padding-top: 2em;
-}
 @media only screen and (max-width: 1100px) {
 	.footernav {
 		column-count: 2;
 	}
 
+	.right {
+		font-size: 1.5em;
+	}
 
 @media only screen and (max-width: 1000px) {
   nav {
-		float: none;
+		float: right;
 		width: auto;
-		display: block;
+		display: inline-block;
 	}
 
 	.two-columns {
+		background-color: #FFF;
 		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 0px;
 	}
 
     .left {	
-    margin: 1em auto;
-   	width: 80%;
-   	padding: 1%;
+    	margin: auto;
+   		width: 80%;
     }
 
     .right {
-   	width: 100%;
-   	padding-bottom: 0px;
-   	font-size: 1.5em;
+   		width: 80%;
+   		padding-bottom: 0px;
+   		font-size: 1.5em;
+   		margin: auto;
+   		background-color: #fff;
     }
 
     .right h2 {
     	padding-top: 20px;
+    	width: 50%;
     }
 
     #right, #left {
-    	width: 75%;
+    	background-color: #d6f5f2;
+    	width: 100%;
     	margin: auto;
     	padding: 0px;
     }
-}
+
+    .bookaworkshop {
+    	margin: 0.5em auto;
+    }
+
+    #right a {
+    	width: 50%;
+    }
+
+    #left h4 {
+    	text-decoration: none;
+    }
 
 @media (max-width: 800px) {
   nav {
@@ -495,6 +605,11 @@ li p {
 }
 
 @media only screen and (max-width: 480px) {
+	
+	.logo {
+		width: 50%;
+		margin: auto;
+
 	nav {
 		float: none;
 		width: auto;
@@ -518,13 +633,19 @@ li p {
 	}
 
 	.footerhead {
-		display: block;
-		width: 100%;
+		margin-left: 1em;
 	}
 
-	.footernav a{
-		display: block;
-		width: 100%;
-		padding: 0px;
+	.footerhead img {
+		width: 200%;
+		margin: auto;
 	}
-}
+
+	.footernav li {
+		display: none;
+	}
+
+
+.footersocial p {
+	text-align: center;
+	}
