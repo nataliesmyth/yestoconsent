@@ -33,6 +33,7 @@ h3 {
 	font-size: 1.5em;
 	font-family: 'Amiro', sans-serif;
 	margin: 2em auto;
+	width: 32em;
 }
 
 h5 {
@@ -140,6 +141,17 @@ textarea:focus, input:focus {
 	width: 100%;
 }
 
+.two-columns-media {
+	display: flex;
+	margin: 40px;
+	background-color: #fe4704;
+}
+
+.two-columns-media h2 {
+	background-color: #d6f5f2;
+	padding: 50px;
+}
+
 .twocolumns {
 	background-color: #d6f5f2;
 	width: 100%;
@@ -218,14 +230,10 @@ textarea:focus, input:focus {
 }
 
 .right, .left {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-size: 2em;
 	text-align: center;
-	background-color: #f2a699;
-	width: 50%;
-	flex-direction: column;
+	width: 75%;
+	margin: auto;
 }
 
 #right, #left {
@@ -256,9 +264,10 @@ textarea:focus, input:focus {
 	background-color: #aaaaa0;
 }
 
-.right h2 {
-	font-size: 1em;
-	color: #fe4704;
+.left h2, .right h2 {
+	font-size: .75em;
+	color: #000;
+	font-weight: 100;
 }
 
 .right img {
@@ -289,7 +298,7 @@ textarea:focus, input:focus {
 .bookaworkshop {
 	font-size: 1em;
 	font-family: 'Arimo', sans-serif;
-	margin: 2em auto;
+	margin: 1em auto;
 	text-align: center;
 	padding: 10px;
 	width: 10em;
@@ -300,7 +309,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop:hover {
-	background-color: #aaaaa0;
+	font-size: 1.25em;
 }
 
 .video{
@@ -379,7 +388,6 @@ textarea:focus, input:focus {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	padding-bottom: 60px;
 }
 
 .fourcolumns a {
