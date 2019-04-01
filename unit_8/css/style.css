@@ -32,7 +32,6 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	font-family: 'Amiro', sans-serif;
-	margin: 2em auto;
 }
 
 h5 {
@@ -40,6 +39,11 @@ h5 {
 	font-size: 1em;
 	line-height: 2em;
 }
+
+h6 {
+	font-size: 1em;
+	line-height: 2em;
+} 
 
 nav {
 	font-family: 'Amiro', sans-serif;
@@ -331,6 +335,10 @@ textarea:focus, input:focus {
 .title {
 	font-family: 'Arimo', sans-serif;
 	text-align: center;
+}
+
+.title h3 {
+	margin: 2em;
 }
 
 .title h4 {
