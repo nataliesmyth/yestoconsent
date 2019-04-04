@@ -537,6 +537,10 @@ li h4 {
 		display: inline-block;
 	}
 
+	.logo img {
+		width: 200px;
+	}
+
 	.two-columns {
 		background-color: #FFF;
 		flex-wrap: wrap;
@@ -558,56 +562,10 @@ li h4 {
    		background-color: #fff;
     }
 
-    .right h2 {
-    	padding-top: 20px;
-    	width: 50%;
-    }
-
-    #right, #left {
-    	background-color: #d6f5f2;
-    	width: 100%;
-    	margin: auto;
-    	padding: 0px;
-    }
-
-    .bookaworkshop {
-    	margin: 0.5em auto;
-    }
-
     #right a {
     	width: 50%;
     }
 
-    #left h4 {
-    	text-decoration: none;
-    }
-
-@media (max-width: 800px) {
-  nav {
-    float: none;
-  }
-
-  nav a {
-    margin: 0 1.6em .75em 0;
-  }
-
-  .fourcolumns {
-	display: block;
-	height: 25%;
-	width: 25%;
-	margin: auto;
-	} 
-}
-
-@media only screen and (max-width: 621px) {
-  .threecolumns li{
-		width: 100%;
-		display: block; 
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	
 	.logo {
 		width: 50%;
 		margin: auto;
@@ -651,3 +609,13 @@ li h4 {
 .footersocial p {
 	text-align: center;
 	}
+
+@media only screen and (max-width: 773px) {
+	nav	{
+		float: none;
+	}
+
+	.logo img {
+		float: center;
+	}
+}

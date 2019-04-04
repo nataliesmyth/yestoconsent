@@ -276,7 +276,7 @@ textarea:focus, input:focus {
 
 .logo {
 	float: left;
-	width: 15%;
+	width: 20%;
 	padding: 10px;
 }
 
@@ -525,6 +525,10 @@ li h4 {
 		float: right;
 		width: auto;
 		display: inline-block;
+	}
+
+	.logo img {
+		width: 200px;
 	}
 
 	.two-columns {
