@@ -606,10 +606,39 @@ li h4 {
 	} 
 }
 
+@media only screen and (max-width: 800px) {
+	.footerinner {
+		display: block;
+	}
+
+	.footerhead {
+		margin-left: none;
+		margin: auto;
+		display: block;
+	}
+
+	.footernav {
+		margin: auto;
+		column-count: 3;
+		width: 100%;
+	}
+
+	.footerbottom {
+		text-align: right;
+		padding-top: 10px;
+	}
+}
+
 @media only screen and (max-width: 621px) {
   .threecolumns li{
 		width: 100%;
 		display: block; 
+	}
+}
+
+@media only screen and (max-width: 573px) {
+	nav {
+		padding: 20px;
 	}
 }
 
