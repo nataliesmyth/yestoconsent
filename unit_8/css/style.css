@@ -252,7 +252,7 @@ textarea:focus, input:focus {
 	flex-direction: column;
 }
 
-#right a{
+#right a {
 	color: #000;
 }
 
@@ -463,7 +463,6 @@ li h4 {
 .social a {
 	display: inline-block;
 	width: 30px;
-	height: 20px;
 	padding: 5px;
 }
 
@@ -584,10 +583,6 @@ li h4 {
     	margin: 0.5em auto;
     }
 
-    #right a {
-    	width: 50%;
-    }
-
     #left h4 {
     	text-decoration: none;
     }
@@ -642,6 +637,17 @@ li h4 {
 	}
 }
 
+@media only screen and (max-width: 530px) {
+	.footersocial {
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 508px) {
+	.social {
+		padding-bottom: 10px;
+	}
+}
 @media only screen and (max-width: 480px) {
 	
 	.logo {
