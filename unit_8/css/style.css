@@ -529,6 +529,10 @@ li h4 {
 		column-count: 2;
 	}
 
+	.footerhead {
+		width: 50%;
+	}
+
 	.right {
 		font-size: 1.5em;
 	}
@@ -589,7 +593,6 @@ li h4 {
     }
 
 @media (max-width: 800px) {
- 
 
   nav a {
     margin: 0 1.6em .75em 0;
