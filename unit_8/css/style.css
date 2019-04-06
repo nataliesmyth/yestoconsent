@@ -161,11 +161,22 @@ textarea:focus, input:focus {
 	background-color: #d6f5f2;
 	width: 100%;
 	padding: 10px;
+	text-align: center;
 }
 
 .twocolumns p {
 	width: 32em;
 	text-align: center;
+}
+
+.twocolumns h3, h4 {
+	width: 32em;
+	margin: 2em auto;
+}
+
+.twocolumns h3, h4 {
+	width: 32em;
+	margin: 0;
 }
 
 .media {
@@ -213,14 +224,18 @@ textarea:focus, input:focus {
 .ourteamright {
 	padding: 20px;
 	justify-content: center;
-	width: 24em;
+	width: 32em;
 	line-height: 1.5em;
 }
 
 .ourteamleft h4 {
 	padding: 5px;
-	text-align: center;
 	font-size: 1.25em;
+}
+
+.ourteamleft h6 {
+	padding: 5px;
+	font-size: 1em;
 }
 
 .meetourteam {
@@ -653,11 +668,13 @@ li h4 {
 	.logo {
 		width: 50%;
 		margin: auto;
+		padding: 0px;
+	}
 
 	nav {
-		float: none;
+		float: right;
 		width: auto;
-		display: inline-block;
+		display: table;
 	}
 
 	.threecolumns li{
@@ -690,6 +707,7 @@ li h4 {
 	}
 
 
-.footersocial p {
+	.footersocial p {
 	text-align: center;
 	}
+
