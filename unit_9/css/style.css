@@ -151,6 +151,17 @@ textarea:focus, input:focus {
 	text-align: center;
 }
 
+.two-columns-media {
+	display: flex;
+	margin: 40px;
+	background-color: #fe4704;
+}
+
+.two-columns-media h2 {
+	background-color: #d6f5f2;
+	padding: 50px;
+}
+
 .media {
 	padding: 10px;
 }
@@ -525,10 +536,6 @@ li h4 {
 		float: right;
 		width: auto;
 		display: inline-block;
-	}
-
-	.logo img {
-		width: 200px;
 	}
 
 	.two-columns {
