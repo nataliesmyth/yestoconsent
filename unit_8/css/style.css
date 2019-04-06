@@ -711,3 +711,15 @@ li h4 {
 	text-align: center;
 	}
 
+	.ourteam {
+		display: block;
+	}
+
+	.ourteamleft {
+		width: 100%;
+	}
+
+	.ourteamright {
+		width: 24em;
+	}
+}
