@@ -723,6 +723,7 @@ li h4 {
 	.title p {
 		margin-top: 0px;
 		margin-bottom: 0px;
+		width: 24em;
 	}
 
 	.footerhead {
@@ -760,5 +761,10 @@ li h4 {
 
 	#left h5 {
 		padding: 20px;
+	}
+
+	#workshopsweoffer h4 {
+		margin: 2em auto;
+		width: 24em;
 	}
 }
