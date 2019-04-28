@@ -589,7 +589,6 @@ li h4 {
 	.two-columns {
 		background-color: #FFF;
 		flex-wrap: wrap;
-		flex-direction: column-reverse;
 		width: 100%;
 		padding-top: 0px;
 	}
@@ -620,6 +619,11 @@ li h4 {
     	width: 100%;
     	margin: auto;
     	padding: 0px;
+    	display: block;
+    }
+
+    #right img {
+    	width: 50%;
     }
 
     .bookaworkshop {
