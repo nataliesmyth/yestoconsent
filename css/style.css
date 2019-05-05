@@ -718,7 +718,15 @@ li h4 {
 	}
 
 	nav a:hover {
-		font-size: 1em;
+		font-size: .75em;
+	}
+
+	.paypal_btn { 
+		font-size: .75em;
+	}
+
+	.paypal_btn:hover{
+		font-size: .75em;
 	}
 
 	.threecolumns li{
