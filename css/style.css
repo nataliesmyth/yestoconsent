@@ -198,6 +198,10 @@ textarea:focus, input:focus {
 	padding: 10px;
 }
 
+.media h2 {
+	text-decoration: underline;
+}
+
 #contact {
 	text-align: right;
 }
@@ -342,6 +346,7 @@ textarea:focus, input:focus {
 
 .bookaworkshop a {
 	color: #fe4704;
+	text-decoration: none;
 }
 
 .bookaworkshop:hover {
