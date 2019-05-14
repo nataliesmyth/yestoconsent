@@ -205,7 +205,6 @@ textarea:focus, input:focus {
 .maxwidth {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 10px;
 }
 
 .maxwidth.title {
@@ -494,12 +493,12 @@ li h4 {
 }
 
 .social {
-	float: right;
+	text-align: center;
 }
 
 .social a {
 	display: inline-block;
-	width: 30px;
+	width: 35px;
 	padding: 5px;
 }
 
