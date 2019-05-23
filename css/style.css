@@ -46,6 +46,7 @@ h5 {
 	padding: 10px;
 	font-size: 1em;
 	line-height: 2em;
+	text-align: center;
 }
 
 }
@@ -58,7 +59,7 @@ h6 {
 nav {
 	font-family: 'Amiro', sans-serif;
     text-align: right;
-    padding-top: 30px;
+    padding-top: 45px;
 }
 
 nav a {
@@ -247,13 +248,14 @@ textarea:focus, input:focus {
 }
 
 .ourteamleft h4 {
-	text-align: center
-	font-size: 1.25em;
-	padding: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px;
+	text-align: center;
 }
 
 .ourteamleft h6 {
-	text-align: center
+	text-align: center;
 	font-size: 1em;
 	padding: 1em;
 }
@@ -336,7 +338,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop {
-	font-size: 1em;
+	font-size: 1.25em;
 	font-family: 'Arimo', sans-serif;
 	margin: 1em auto;
 	text-align: center;
@@ -350,7 +352,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop:hover {
-	font-size: 1.25em;
+	font-size: 1.35em;
 }
 
 .video{
@@ -565,7 +567,6 @@ li h4 {
 .footerbottom small {
 	font-size: .5em;
 	padding-top: 10px;
-	text-align: center;
 }
 
 @media only screen and (max-width: 1100px) {
