@@ -42,13 +42,15 @@ h3 {
 	font-family: 'Amiro', sans-serif;
 }
 
-h5 {
-	padding: 10px;
+h4 {
 	font-size: 1em;
-	line-height: 2em;
-	text-align: center;
 }
 
+h5 {
+	padding: 10px;
+	font-size: .75em;
+	line-height: 2em;
+	text-align: center;
 }
 
 h6 {
@@ -186,12 +188,11 @@ textarea:focus, input:focus {
 }
 
 #workshopsweoffer h4 {
-	width: 32em;
 	text-align: center;
-	margin: 2em auto;
+	
 }
 #workshopsweoffer p {
-	width: 32em;
+	padding-top: 10px;
 	text-align: center;
 }
 
@@ -275,7 +276,7 @@ textarea:focus, input:focus {
 	font-size: 2em;
 	text-align: center;
 	width: 75%;
-	margin: auto;
+	margin: 2em auto;
 }
 
 #right, #left {
@@ -338,7 +339,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	font-family: 'Arimo', sans-serif;
 	margin: 1em auto;
 	text-align: center;
@@ -352,7 +353,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop:hover {
-	font-size: 1.35em;
+	font-size: 1.55em;
 }
 
 .video{
@@ -420,10 +421,9 @@ textarea:focus, input:focus {
 }
 
 .threecolumns > * {
-	width: 100%;
+	width: 32%;
 	margin: 2em auto;
 	margin-bottom: 1.5%;
-	min-height: 200px;
 }
 
 .fourcolumns {
@@ -431,6 +431,7 @@ textarea:focus, input:focus {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
+	padding: 2em;
 }
 
 .fourcolumns a {
@@ -449,7 +450,7 @@ textarea:focus, input:focus {
 }
 
 #workshops li {
-	background-color: #;
+	background-color: #b3e4e4;
 	text-align: center;
 	padding: 10px;
 }
@@ -483,12 +484,6 @@ li h4 {
 	color: #000;
 	display: block;
 	padding-bottom: 10px;
-}
-
-.threecolumns {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .resources {
@@ -614,7 +609,7 @@ li h4 {
     }
 
     .right h2 {
-    	padding-top: 20px;
+    	padding: 20px;
     }
 
     #right, #left {
