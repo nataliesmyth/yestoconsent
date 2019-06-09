@@ -178,11 +178,11 @@ article {
 }
 
 article img {
-	width: 50%;
+	width: 40%;
 	margin: 2em auto;
 }
 
-article h1, p {
+article h1 {
 	text-align: left;
 }
 
