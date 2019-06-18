@@ -197,9 +197,10 @@ article h6 {
 
 .two-columns {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: nowrap;
 	width: 100%;
+	background-color: #d6f5f2;
 }
 
 .two-columns-media {
@@ -324,19 +325,38 @@ article h6 {
 	margin: 2em auto;
 }
 
+#verbatim {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	margin: 8em;
+	background-color: #f0f8ff;
+}
+
+.vleft {
+	text-align: center;
+	font-size: 2em;
+	width: 30%;
+}
+
+.vright {
+}
+
+.vleft a {
+	text-decoration: none;
+	color: #000;
+}
+
 #right, #left {
-	background-color: #d6f5f2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
-	width: 50%;
 	flex-direction: column;
-}
-
-#right a {
-	color: #000;
+	width: 25%;
 }
 
 #right img {
