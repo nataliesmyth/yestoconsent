@@ -359,8 +359,8 @@ article h6 {
 	width: 25%;
 }
 
-#right img {
-	width: 200%;
+#right a {
+	width: 150%;
 }
 
 #left a {
@@ -427,7 +427,7 @@ article h6 {
 	max-height: 450px;
 	height: 56.25vw;
 	width: 100%;
-	margin: 2em auto;
+	margin: 10em auto;
 	max-width: 800px;
 }
 
@@ -498,7 +498,6 @@ article h6 {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	margin: 2em;
 }
 
 .fourcolumns a {
