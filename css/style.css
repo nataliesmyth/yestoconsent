@@ -72,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-	font-size: 1.15em;
+	font-size: 1.05em;
 }
 
 img {
@@ -145,9 +145,8 @@ textarea:focus, input:focus {
 	outline: none;
 }
 
-.paypal_btn:hover{ 
-	background: #e05c04;
-	font-size: 1.25em;
+.paypal_btn:hover{
+	font-size: 1.05em;
 }
 
 #bloglogo {
@@ -322,7 +321,7 @@ article h6 {
 	font-size: 2em;
 	text-align: center;
 	width: 75%;
-	margin: 2em auto;
+	margin: 1em auto;
 }
 
 #verbatim {
@@ -350,7 +349,7 @@ article h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	flex-direction: column;
 	width: 25%;
@@ -693,6 +692,10 @@ li h4 {
 
     #left h4 {
     	text-decoration: none;
+    }
+
+    .vright img {
+    	width: 25%;
     }
 
 @media (max-width: 800px) {
