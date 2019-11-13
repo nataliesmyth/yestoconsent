@@ -276,25 +276,21 @@ article h6 {
 }
 
 .ourteam {
+	padding-bottom: 20px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .ourteamleft {
-	padding: 20px;
 	width: 20%;
 }
 
 .ourteamright {
-	padding: 20px;
-	padding-left: 40px;
-	justify-content: center;
 	width: 32em;
 	line-height: 1.5em;
 }
 
 .ourteamleft h4 {
-	text-align: center;
 	padding: 10px;
 	text-align: center;
 }
