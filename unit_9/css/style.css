@@ -6,17 +6,13 @@
 	box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
 body {
 	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
+}
+
+header {
+	height: 100px;
 }
 
 h1 {
@@ -36,27 +32,20 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	font-family: 'Amiro', sans-serif;
-}
-
-h4 {
-	font-size: 1em;
+	margin: 2em auto;
 }
 
 h5 {
-	padding: 10px;
-	font-size: .75em;
-	line-height: 2em;
-	text-align: center;
-}
-
-h6 {
 	font-size: 1em;
 	line-height: 2em;
-} 
+	text-align: center;
+
+}
 
 nav {
 	font-family: 'Amiro', sans-serif;
-    padding-top: 45px;
+    text-align: right;
+    padding-top: 30px;
 }
 
 nav a {
@@ -64,11 +53,10 @@ nav a {
 	display: inline-block;
 	padding: 10px;
 	text-decoration: none;
-	font-size: .5em;
 }
 
 nav a:hover {
-	font-size: 1.05em;
+	background-color: #aaaaaa;
 }
 
 img {
@@ -141,61 +129,26 @@ textarea:focus, input:focus {
 	outline: none;
 }
 
-.paypal_btn:hover{
-	font-size: 1.05em;
-}
-
-#bloglogo {
-	margin: 2em auto;
-	width: 30%;
-
-}
-
-.blogright {
-	margin: 2em auto;
-	width: 48em;
-	
-}
-
-.blogright p {
-	color: red;
-}
-
-.blogright h2 {
-	font-size: 1em;
-	font-weight: 100%;
-	line-height: 1.5em;
-}
-
-article {
-	display: block;
-	margin: 2em auto;
-}
-
-article img {
-	width: 40%;
-	margin: 2em auto;
-}
-
-article h1 {
-	text-align: left;
-}
-
-article p {
-	width: 32em;
-	margin: 2em auto;
-}
-
-article h6 {
-	text-align: center;
+.paypal_btn:hover{ 
+	background: #e05c04;
 }
 
 .two-columns {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: nowrap;
 	width: 100%;
+}
+
+.twocolumns {
 	background-color: #d6f5f2;
+	width: 100%;
+	padding: 10px;
+}
+
+.twocolumns p {
+	width: 32em;
+	text-align: center;
 }
 
 .two-columns-media {
@@ -209,40 +162,8 @@ article h6 {
 	padding: 50px;
 }
 
-#twocolumns {
-	background-color: #d6f5f2;
-	width: 100%;
-	padding: 10px;
-	text-align: center;
-}
-
-#twocolumns p {
-	width: 32em;
-	text-align: center;
-}
-
-#workshopsweoffer {
-	background-color: #d6f5f2;
-	width: 100%;
-	padding: 10px;
-	text-align: center;
-}
-
-#workshopsweoffer h4 {
-	text-align: center;
-	
-}
-#workshopsweoffer p {
-	padding-top: 10px;
-	text-align: center;
-}
-
 .media {
 	padding: 10px;
-}
-
-.media h2 {
-	text-decoration: underline;
 }
 
 #contact {
@@ -250,10 +171,9 @@ article h6 {
 }
 
 .maxwidth {
-	display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 .maxwidth.title {
@@ -274,29 +194,27 @@ article h6 {
 }
 
 .ourteam {
-	padding-bottom: 20px;
+	background-color: #d6f5f2;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .ourteamleft {
+	padding: 20px;
 	width: 20%;
 }
 
 .ourteamright {
-	width: 32em;
+	padding: 20px;
+	justify-content: center;
+	width: 24em;
 	line-height: 1.5em;
 }
 
 .ourteamleft h4 {
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
-}
-
-.ourteamleft h6 {
-	text-align: center;
-	font-size: 1em;
-	padding: 1em;
+	font-size: 1.25em;
 }
 
 .meetourteam {
@@ -311,45 +229,33 @@ article h6 {
 }
 
 .right, .left {
-	font-size: 2em;
-	text-align: center;
-	width: 75%;
-	margin: 1em auto;
-}
-
-#verbatim {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 2em;
-	margin: 8em;
-	background-color: #f0f8ff;
-}
-
-.vleft {
-	text-align: center;
 	font-size: 2em;
-	width: 30%;
-}
-
-.vleft a {
-	text-decoration: none;
-	color: #000;
+	text-align: center;
+	background-color: #f2a699;
+	width: 50%;
+	flex-direction: column;
 }
 
 #right, #left {
+	background-color: #d6f5f2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 2em;
 	text-align: center;
+	width: 50%;
 	flex-direction: column;
-	width: 25%;
 }
 
-#right a {
-	width: 150%;
+#right a{
+	color: #000;
+}
+
+#right img {
+	width: 50%;
 }
 
 #left a {
@@ -358,13 +264,12 @@ article h6 {
 }
 
 #left a:hover {
-	font-size: 1.25em;
+	background-color: #aaaaa0;
 }
 
-.left h2, .right h2 {
-	font-size: .75em;
-	color: #000;
-	font-weight: 100;
+.right h2 {
+	font-size: 1em;
+	color: #fe4704;
 }
 
 .right img {
@@ -381,6 +286,7 @@ article h6 {
 }
 
 .logo {
+	float: left;
 	width: 20%;
 	padding: 10px;
 }
@@ -392,9 +298,9 @@ article h6 {
 }
 
 .bookaworkshop {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Arimo', sans-serif;
-	margin: 1em auto;
+	margin: 2em auto;
 	text-align: center;
 	padding: 10px;
 	width: 10em;
@@ -402,20 +308,18 @@ article h6 {
 
 .bookaworkshop a {
 	color: #fe4704;
-	text-decoration: none;
 }
 
 .bookaworkshop:hover {
-	font-size: 1.55em;
+	background-color: #aaaaa0;
 }
 
 .video{
-	background-color: #d6f5f2;
 	position: relative;
 	max-height: 450px;
 	height: 56.25vw;
 	width: 100%;
-	margin: 10em auto;
+	margin: 2em auto;
 	max-width: 800px;
 }
 
@@ -433,8 +337,8 @@ article h6 {
 	text-align: center;
 }
 
-.title h3 {
-	margin: 2em auto;
+.title h5 {
+	padding: 0px;
 }
 
 .title h4 {
@@ -452,7 +356,7 @@ article h6 {
 	line-height: 2em;
 	text-align: center;
 	padding: 20px;
-	margin: 2em auto;
+	margin: auto;
 }
 
 #about {
@@ -475,17 +379,18 @@ article h6 {
 }
 
 .threecolumns > * {
-	width: 32%;
+	width: 100%;
 	margin: 2em auto;
 	margin-bottom: 1.5%;
+	min-height: 200px;
 }
 
 .fourcolumns {
-	background-color: #d6f5f2;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
+	padding-bottom: 60px;
 }
 
 .fourcolumns a {
@@ -498,13 +403,8 @@ article h6 {
 	height: 15%
 }
 
-.fourcolumns a:hover {
-	width: 16%;
-	height: 16%;
-}
-
 #workshops li {
-	background-color: #b3e4e4;
+	background-color: #;
 	text-align: center;
 	padding: 10px;
 }
@@ -540,6 +440,12 @@ li h4 {
 	padding-bottom: 10px;
 }
 
+.threecolumns {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 .resources {
 	font-size: 1.5em;
 }
@@ -549,17 +455,18 @@ li h4 {
 }
 
 .social {
-	text-align: center;
+	float: right;
 }
 
 .social a {
 	display: inline-block;
-	width: 35px;
+	width: 30px;
+	height: 20px;
 	padding: 5px;
 }
 
-.social a:hover {
-	width: 32px;
+.social a:last-child {
+	margin-right: 100px;
 }
 
 .footer {
@@ -604,27 +511,82 @@ li h4 {
 	padding-top: 10px;
 }
 
-.footernav a {
+.footernav a{
 	color: #fff;
 	font-size: .5em;
 }
 
-.footernav a:hover {
-	font-size: .55em;
-}
-
 .footerbottom small {
 	font-size: .5em;
-	padding: 20px;
+	margin-left: 3em;
+	padding-top: 2em;
+}
+
+/* [MENU] */
+#page-nav {
+	background: #fff;
+	color: #000;
+  /* If you want the navigation bar to stick on top
+  position: sticky;
+  top: 0;
+  */
+}
+#page-nav label, #page-nav ul, #page-nav li {
+  display: inline-block;
+}
+
+/* [HAMBURGER - HIDDEN ON BIG SCREENS] */
+#page-nav label, #hamburger {
+  display: none;
+}
+#page-nav label {
+  font-style: normal;
+  font-size: 1em;
+  padding: 10px;
+}
+
+/* [MENU ITEMS] */
+#page-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+#page-nav ul li {
+  padding: 10px;
+  box-sizing: border-box;
+}
+#page-nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* [SHOW HAMBURGER] */
+  #page-nav label {
+    display: inline-block;
+  }
+  
+  /* [BREAK DOWN MENU INTO VERTICAL] */
+  #page-nav ul li {
+    display: block;
+  }
+  #page-nav ul li {
+    border-top: 1px solid #333;
+  }
+
+  /* [SHOW/HIDE MENU ON CHECKBOX CLICK] */
+  #page-nav ul {
+    display: none;
+  }
+  #page-nav input:checked ~ ul {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
 	.footernav {
 		column-count: 2;
-	}
-
-	.footerhead {
-		width: 50%;
 	}
 
 	.right {
@@ -641,12 +603,9 @@ li h4 {
 	.two-columns {
 		background-color: #FFF;
 		flex-wrap: wrap;
+		flex-direction: column-reverse;
 		width: 100%;
 		padding-top: 0px;
-	}
-
-	.fourcolumns a {
-		flex: none;
 	}
 
     .left {	
@@ -663,7 +622,8 @@ li h4 {
     }
 
     .right h2 {
-    	padding: 20px;
+    	padding-top: 20px;
+    	width: 50%;
     }
 
     #right, #left {
@@ -671,26 +631,24 @@ li h4 {
     	width: 100%;
     	margin: auto;
     	padding: 0px;
-    	display: block;
-    }
-
-    #right img {
-    	width: 50%;
     }
 
     .bookaworkshop {
     	margin: 0.5em auto;
     }
 
+    #right a {
+    	width: 50%;
+    }
+
     #left h4 {
     	text-decoration: none;
     }
 
-    .vright img {
-    	width: 25%;
-    }
-
 @media (max-width: 800px) {
+  nav {
+    float: none;
+  }
 
   nav a {
     margin: 0 1.6em .75em 0;
@@ -704,33 +662,6 @@ li h4 {
 	} 
 }
 
-@media only screen and (max-width: 800px) {
-	.footerinner {
-		display: block;
-	}
-
-	.footerhead {
-		margin-left: none;
-		margin: auto;
-		display: block;
-	}
-
-	.footernav {
-		margin: auto;
-		column-count: 3;
-		width: 100%;
-	}
-
-	.footerbottom {
-		text-align: right;
-		padding-top: 10px;
-	}
-
-	.footerbottom small {
-		padding: 10px;
-	}
-}
-
 @media only screen and (max-width: 621px) {
   .threecolumns li{
 		width: 100%;
@@ -738,47 +669,17 @@ li h4 {
 	}
 }
 
-@media only screen and (max-width: 573px) {
-	.logo {
-		float: none;
-	}
-}
-
-@media only screen and (max-width: 530px) {
-	.footersocial {
-		padding: 0px;
-	}
-}
-
-@media only screen and (max-width: 508px) {
-	nav a {
-		font-size: .75em;
-	}
-}
 @media only screen and (max-width: 480px) {
 	
 	.logo {
 		width: 50%;
 		margin: auto;
-		padding: 0px;
 	}
 
 	nav {
-		float: right;
+		float: none;
 		width: auto;
-		display: table;
-	}
-
-	nav a:hover {
-		font-size: .75em;
-	}
-
-	.paypal_btn { 
-		font-size: .75em;
-	}
-
-	.paypal_btn:hover{
-		font-size: .75em;
+		display: inline-block;
 	}
 
 	.threecolumns li{
@@ -795,7 +696,6 @@ li h4 {
 	.title p {
 		margin-top: 0px;
 		margin-bottom: 0px;
-		width: 24em;
 	}
 
 	.footerhead {
@@ -813,44 +713,6 @@ li h4 {
 
 
 	.footersocial p {
-		display: block;
-	}
-
-	.ourteam {
-		display: block;
-	}
-
-	.ourteamleft {
-		width: 100%;
-	}
-
-	.ourteamright {
-		width: 24em;
-	}
-	#left {
-		font-size: 1.5em;
-	}
-
-	#left h5 {
-		padding: 20px;
-	}
-
-	#workshopsweoffer h4 {
-		margin: 2em auto;
-		width: 24em;
-	}
-}
-
-@media only screen and (max-width: 4000px) {
-	#verbatim {
-		display: block;
-		margin: 2em;
-	}
-	.vleft {
-		width: 100%;
-	}
-
-	.fourcolumns {
-		display: none;
+	text-align: center;
 	}
 }
