@@ -366,10 +366,8 @@ article h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2em;
 	text-align: center;
 	flex-direction: column;
-	width: 25%;
 }
 
 #right a {
