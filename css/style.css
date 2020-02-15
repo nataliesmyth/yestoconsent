@@ -81,6 +81,7 @@ p {
 	font-family: 'Amiro', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
+	text-align: justify;
 }
 
 ul {
@@ -91,6 +92,36 @@ ul {
 footer {
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.25em;
+}
+
+.row {
+	margin: 20px;
+}
+
+.column {
+	float: left;
+	width: 29%;
+	height:250px;
+	margin: 20px;
+	padding: 10px;
+	position: relative;
+	border: 1px solid #ff3300;
+}
+
+.column h3 {
+	padding-bottom: 20px;
+}
+.column a {
+	position: absolute;
+	bottom: 0;
+	text-decoration: none;
+	color: #ff3300;
+}
+
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
 }
 
 .paypal {
@@ -135,7 +166,7 @@ textarea:focus, input:focus {
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
-	background: #ff3300;
+	background: #FF4800;
 	border: 0;
 	cursor: pointer;
 	outline: none;
@@ -220,7 +251,6 @@ article h6 {
 #workshopsweoffer {
 	width: 100%;
 	padding: 10px;
-	text-align: center;
 }
 
 #workshopsweoffer h4 {
@@ -228,8 +258,7 @@ article h6 {
 	
 }
 #workshopsweoffer p {
-	padding-top: 10px;
-	text-align: center;
+	padding: 10px 0 20px 0;
 }
 
 .media {
@@ -261,7 +290,7 @@ article h6 {
 }
 
 .banner {
-	background-color: #ff3300;
+	background-color: #FF4800;
 }
 
 .banner h2 {
@@ -380,25 +409,17 @@ article h6 {
 	padding: 10px;
 }
 
-.logo a {
-	text-decoration: none;
-	background-color: #fff;
-
-}
-
 .bookaworkshop {
 	font-size: 1.5em;
 	font-family: 'Arimo', sans-serif;
-	margin: 1em auto;
 	text-align: center;
-	padding: 10px;
-	width: 10em;
-	background-color: #ff3300;
 }
 
 .bookaworkshop a {
 	color: #fff;
 	text-decoration: none;
+	background-color: #ff3300;
+	padding: 10px;
 }
 
 .video{
@@ -495,6 +516,10 @@ article h6 {
 	height: 16%;
 }
 
+li {
+	position: relative;
+}
+
 #workshops li {
 	text-align: center;
 	padding: 10px;
@@ -509,7 +534,12 @@ li h4 {
 	line-height: 1.5em;
 }
 
-
+li a {
+	bottom: 0;
+	color: #ff3300;
+	text-decoration: none;
+	font-size: 0.75em;
+}
 
 #workshop p {
 	font-size: 0.5em;
