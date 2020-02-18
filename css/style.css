@@ -78,6 +78,7 @@ p {
 ul {
 	list-style-type: none;
 	font-size: 1.5em;
+	padding: 30px;
 }
 
 footer {
@@ -115,6 +116,26 @@ footer {
   	clear: both;
 }
 
+.resourcerow {
+	margin: 40px;
+}
+
+.resourcegroup {
+	padding: 10px;
+	border: 1px solid #ff3300;
+	background-color: #CCDDDD;
+}
+
+.resourcegroup h3 {
+	font-size: 3em;
+}
+
+.resourcerow:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
 .paypal {
 	display: inline-block;
 }
@@ -136,13 +157,13 @@ b {
 	font-weight: 50px;
 }
 
-hr {
+/*hr {
 	border: none;
 	height: 3px;
 	background-color: #3C3C3C;
 	width: 2em;
 	margin: 1em auto;
-}
+}*/
 
 textarea:focus, input:focus {
 	border: 2px solid #900;
@@ -168,7 +189,7 @@ textarea:focus, input:focus {
 	width: 30%;
 }
 
-.blogright {
+/*.blogright {
 	margin: 2em auto;
 	width: 48em;
 	
@@ -182,30 +203,30 @@ textarea:focus, input:focus {
 	font-size: 1em;
 	font-weight: 100%;
 	line-height: 1.5em;
-}
+}*/
 
-article {
+/*article {
 	display: block;
-	margin: 2em auto;
+	margin: 2em auto;*/
 }
 
-article img {
+/*article img {
 	width: 40%;
 	margin: 2em auto;
+}*/
+
+/*article h1 {
+	text-align: left;*/
 }
 
-article h1 {
-	text-align: left;
-}
-
-article p {
+/*article p {
 	width: 32em;
 	margin: 2em auto;
-}
+}*/
 
-article h6 {
+/*article h6 {
 	text-align: center;
-}
+}*/
 
 .two-columns {
 	display: flex;
@@ -366,12 +387,13 @@ article h6 {
 }
 
 #right a {
-	width: 200%;
+	width: 50%;
 }
 
-#left a {
+#left img {
 	color: #000;
 	padding-bottom: 10px;
+	width: 50%;
 }
 
 .left h2, .right h2 {
@@ -455,7 +477,7 @@ article h6 {
 	margin: 2em auto;
 }
 
-#about {
+/*#about {
 	font-size: 2.5em;
 	margin: .5em auto;
 	text-align: center;
@@ -465,19 +487,19 @@ article h6 {
 	background-color: #E582A2;
 	width: 50%;
 	float: right;
-}
+}*/
 
-.threecolumns {
+/*.threecolumns {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-}
+}*/
 
-.threecolumns > * {
+/*.threecolumns > * {
 	width: 32%;
 	margin: 2em auto;
 	margin-bottom: 1.5%;
-}
+}*/
 
 .fourcolumns {
 	background-color: #CCDDDD;
@@ -499,6 +521,7 @@ article h6 {
 
 li {
 	position: relative;
+	padding: bottom;
 }
 
 #workshops li {
