@@ -40,7 +40,6 @@ h4 {
 }
 
 h5 {
-	padding: 10px;
 	font-size: .75em;
 	line-height: 2em;
 }
@@ -99,14 +98,15 @@ footer {
 	border: 1px solid #ff3300;
 }
 
-.column h3 {
-	padding-bottom: 20px;
-}
 .column a {
 	position: absolute;
 	bottom: 0;
 	text-decoration: none;
 	color: #ff3300;
+}
+
+.column p {
+	padding-top: 20px;
 }
 
 .row:after {
