@@ -110,6 +110,10 @@ footer {
 	padding-top: 20px;
 }
 
+.column h5 {
+	font-size: .85em;
+}
+
 .row:after {
 	content: "";
   	display: table;
@@ -234,6 +238,16 @@ textarea:focus, input:focus {
 	flex-wrap: nowrap;
 	width: 100%;
 	background-color: #CCDDDD;
+}
+
+.two-columns h2 {
+	margin: 0px;
+}
+
+.two-columns a {
+	text-decoration: none;
+	font-size: 2em;
+	font-color: #000;
 }
 
 .two-columns-media {
