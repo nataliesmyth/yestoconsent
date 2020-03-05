@@ -803,8 +803,14 @@ li a {
 }
 
 @media only screen and (max-width: 508px) {
+	nav {
+		padding:10px;
+	}
 	nav a {
 		font-size: .75em;
+	}
+	.paypal {
+		float: right;
 	}
 }
 @media only screen and (max-width: 480px) {
