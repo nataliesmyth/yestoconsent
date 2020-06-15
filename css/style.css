@@ -177,7 +177,7 @@ textarea:focus, input:focus {
 	font-family: inherit;
 	font-size: 1em;
 	font-weight: bold;
-	color: #fff;
+	color: #F1F1F1;
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
@@ -318,7 +318,7 @@ textarea:focus, input:focus {
 }
 
 .banner h2 {
-	color: #FFF;
+	color: #F1F1F1;
 }
 
 .ourteam {
@@ -417,7 +417,7 @@ textarea:focus, input:focus {
 
 .right img {
 	width: 50%;
-	background-color: #fff;
+	background-color: #F1F1F1;
 }
 
 .clearfix:after {
@@ -439,7 +439,7 @@ textarea:focus, input:focus {
 }
 
 .bookaworkshop a {
-	color: #fff;
+	color: #F1F1F1;
 	text-decoration: none;
 	background-color: #FF4800;
 	padding: 10px;
@@ -609,7 +609,7 @@ li a {
 .navsmall a {
 	text-decoration: none;
 	text-transform: uppercase;
-    color: #FFF;
+    color: #F1F1F1;
     width: 150px;
     font-size: .75em;
     padding: 10px;
@@ -621,7 +621,7 @@ li a {
 .footer {
 	text-decoration: none;
 	padding: 2em 0;
-	color: #fff;
+	color: #F1F1F1;
 	background-color: #4a4a4a;
 	text-align: left;
 }
@@ -633,7 +633,7 @@ li a {
 
 .footersocial p {
 	display: inline;
-	color: #FFF;
+	color: #F1F1F1;
 }
 
 .footerhead {
@@ -661,7 +661,7 @@ li a {
 }
 
 .footernav a {
-	color: #fff;
+	color: #F1F1F1;
 	font-size: .5em;
 }
 
@@ -696,7 +696,7 @@ li a {
 	}
 
 	.two-columns {
-		background-color: #FFF;
+		background-color: #F1F1F1;
 		flex-wrap: wrap;
 		width: 100%;
 		padding-top: 0px;
@@ -717,7 +717,7 @@ li a {
    		padding-bottom: 0px;
    		font-size: 1.5em;
    		margin: auto;
-   		background-color: #fff;
+   		background-color: #F1F1F1;
     }
 
     .right h2 {
