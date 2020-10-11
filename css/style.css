@@ -1,6 +1,9 @@
 :root {
-	--red: #FF3300;
-	--white: #F1F1F1;                
+	--red: #FF4800;
+	--pink: #F1A497;
+	--blue: #CCDDDD;
+	--white: #F1F1F1;
+	--black: #000;                
 }
 
 * {
@@ -22,10 +25,14 @@ body {
 	font-size: 16px;
 }
 
+footer {
+	font-size: 1.25em;
+}
+
 h1 {
 	font-size: 2em;
 	text-transform: uppercase;
-	color: #000;
+	color: var(--black)
 }
 
 h2 {
@@ -50,8 +57,13 @@ h5 {
 h6 {
 	font-size: 1em;
 	line-height: 2em;
-} 
+}
 
+img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
 nav {
 	font-family: 'Amiro', sans-serif;
     padding-top: 45px;
@@ -65,11 +77,6 @@ nav a {
 	font-size: .85em;
 }
 
-img {
-	width: 100%;
-	display: block;
-	margin: 0 auto;
-}
 
 p {
 	font-family: 'Amiro', sans-serif;
@@ -84,9 +91,6 @@ ul {
 	padding: 30px;
 }
 
-footer {
-	font-size: 1.25em;
-}
 
 .row {
 	margin: 20px;
@@ -129,7 +133,7 @@ footer {
 
 .resourcegroup {
 	padding: 10px;
-	border: 1px solid var(--red);;
+	border: 1px solid var(--red);
 	background-color: #CCDDDD;
 }
 
