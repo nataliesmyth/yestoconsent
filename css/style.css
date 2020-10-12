@@ -610,8 +610,8 @@ li a {
 .social {
 	text-align: right;
 	margin: 0 auto;
-	background-color: #CCDDDD;
-    padding-right: 114px;
+	background-color: var(--blue);
+    padding: 10px;
 }
 
 .social a {
@@ -623,11 +623,11 @@ li a {
 .navsmall {
 	text-decoration: none;
 	float: left;
-	padding-left: 114px;
+	/* padding-left: 114px; */
 }
 
 .navsmall a {
-	text-decoration: none;
+	/* text-decoration: none; */
 	text-transform: uppercase;
     color: var(--white);
     width: 150px;
