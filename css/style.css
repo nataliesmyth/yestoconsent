@@ -67,7 +67,7 @@ img {
 
 main {
 	margin: 20px;
-	padding: 20px 400px 20px 400px;
+	padding: 20px 300px 20px 300px;
 }
 
 nav {
@@ -76,7 +76,7 @@ nav {
 }
 
 nav a {
-	color: black;
+	color: var(--black);
 	display: inline-block;
 	padding: 10px;
 	text-decoration: none;
@@ -635,21 +635,16 @@ li a {
 }
 
 .navsmall {
-	text-decoration: none;
 	float: left;
-	/* padding-left: 114px; */
 }
 
 .navsmall a {
-	/* text-decoration: none; */
+	background-color: var(--pink);
+	text-decoration: none;
+	display: inline;
 	text-transform: uppercase;
-    color: var(--white);
-    width: 150px;
-    font-size: .75em;
-    padding: 10px;
-    text-align: center;
+	color: var(--white);
     font-weight: 700;
-    background-color: var(--red);
 }
 
 .footer {
