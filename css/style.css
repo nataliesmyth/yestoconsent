@@ -86,9 +86,9 @@ nav a {
 
 p {
 	font-family: 'Amiro', sans-serif;
-	font-size: 1.5em;
+	/* font-size: 1.5em; */
 	line-height: 1.5em;
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 ul {
@@ -368,20 +368,20 @@ textarea:focus, input:focus {
 }
 
 .ourteamright {
-	width: 32em;
-	line-height: 1.5em;
+	width: 36em;
+	/* line-height: 1.5em; */
 }
 
-.ourteamleft h4 {
+/* .ourteamleft h4 {
 	text-align: left;
 	padding: 10px;
-}
+} */
 
-.ourteamleft h6 {
+/* .ourteamleft h6 {
 	text-align: center;
 	font-size: 1em;
 	padding: 1em;
-}
+} */
 
 .ourteamleft img {
 	border: 4px solid #CCDDDD;
@@ -595,7 +595,7 @@ li a {
 	bottom: 0;
 	/* color: var(--red); */
 	text-decoration: none;
-	/* font-size: 0.75em; */
+	font-size: 1.25em;
 }
 
 #workshop p {
@@ -606,8 +606,8 @@ li a {
 	display: flex;
 	flex-direction: column;
 	justify-content: right;
-	align-items: left;
-	text-align: left;
+	/* align-items: left; */
+	/* text-align: left; */
 	width: 30%;
 	/*height: 150px;*/
 }
