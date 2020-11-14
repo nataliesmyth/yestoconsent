@@ -211,9 +211,9 @@ textarea:focus, input:focus {
 .paypal_btn {
 	display: inline-block;
 	font-family: inherit;
-	font-size: 1em;
-	font-weight: bold;
-	color: var(--white);
+	/* font-size: 1em; */
+	/* font-weight: bold; */
+	/* color: var(--white); */
 	text-align: center;
 	padding: 10px 14px;
 	margin: 0;
