@@ -1,3 +1,11 @@
+:root {
+--red: #FF4800;
+--pink: #F7E1D7;
+--blue: #CCDDDD;
+--white: #f2e5d7;
+--black: #4a5759; 
+}
+
 /* 
 * RESET
 ***************************************************/
@@ -51,7 +59,7 @@
   ***************************************************/
   
   header {
-    background: rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.7); */
     width: 100%;
     position: fixed;
     top: 0;
@@ -73,18 +81,18 @@
   .nav-item {
     font-size: 1.3em;
     padding: 20px;
-    color: #fff;
+    /* color: #fff; */
   }
   
   .nav-link {
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
   }
   
   .nav-link:hover {
-    color: #fff;
+    /* color: #fff; */
     padding-bottom: 16px;
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid var(--white);
   }
   
   
@@ -112,7 +120,7 @@
   
   .title p {
     font-size: 1.6em;
-    color: #fff;
+    /* color: #fff; */
     letter-spacing: 5px;
   }
   
