@@ -332,16 +332,16 @@ textarea:focus, input:focus {
 	text-align: right;
 }
 
-.maxwidth {
+/* .maxwidth {
 	display: flex;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-}
+} */
 
-.maxwidth.title {
+/* .maxwidth.title {
 	max-width: 640px;
-}
+} */
 
 #two-columns .maxwidth {
 	padding-top: 0;
