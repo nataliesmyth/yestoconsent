@@ -103,7 +103,7 @@
   .hero {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/bg-hero.jpg');
+    background-image: url('../images/indexphoto_b&w.svg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@
   .title {
     background-color: rgba(0, 0, 0, 0.7);
     max-width: 600px;
-    padding: 5%;
+    padding: 3%;
     position: absolute;
     top: 30%;
     left: 10%;
@@ -124,6 +124,10 @@
     letter-spacing: 5px;
   }
   
+  .logo {
+    position: relative;
+    width: 97%;
+  }
   
   /* 
   * MEALS GALLERY
