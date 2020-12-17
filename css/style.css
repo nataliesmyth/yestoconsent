@@ -109,7 +109,7 @@ body {
   }
   
   .logo {
-	/* background-color: rgba(0, 0, 0, 0.7); */
+	background-color: rgba(0, 0, 0, 0.7);
 	max-width: 600px;
 	padding: 2%;
 	position: absolute;
