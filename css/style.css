@@ -60,6 +60,10 @@ h6 {
 	line-height: 2em;
 }
 
+/* header {
+	display: flex;
+} */
+
 img {
 	width: 100%;
 	display: block;
