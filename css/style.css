@@ -225,21 +225,6 @@ textarea:focus, input:focus {
 	width: 30%;
 }
 
-/*.blogright {
-	margin: 2em auto;
-	width: 48em;
-	
-}
-
-.blogright p {
-	color: red;
-}
-
-.blogright h2 {
-	font-size: 1em;
-	font-weight: 100%;
-	line-height: 1.5em;
-}*/
 
 /*article {
 	display: block;
@@ -328,17 +313,6 @@ textarea:focus, input:focus {
 #contact {
 	text-align: right;
 }
-
-/* .maxwidth {
-	display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: space-between;
-} */
-
-/* .maxwidth.title {
-	max-width: 640px;
-} */
 
 #two-columns .maxwidth {
 	padding-top: 0;
@@ -445,12 +419,6 @@ textarea:focus, input:focus {
 	padding-bottom: 10px;
 	width: 50%;
 }
-
-/* .indexphoto h2, .right h2 {
-	font-size: .95em;
-	color: #000;
-	font-weight: 100;
-} */
 
 .right img {
 	width: 50%;
