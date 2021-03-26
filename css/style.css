@@ -70,10 +70,10 @@ img {
 	margin: 0 auto;
 }
 
-main {
+/* main {
 	margin: 20px;
 	padding: 20px 100px 20px 100px;
-}
+} */
 
 nav {
 	font-family: 'Amiro', sans-serif;
@@ -90,7 +90,7 @@ nav a {
 
 p {
 	font-family: 'Amiro', sans-serif;
-	/* font-size: 1.5em; */
+	font-size: 1.5em;
 	line-height: 1.5em;
 	/* text-align: justify; */
 }
@@ -114,6 +114,10 @@ ul li {
 	color: var(--white);
 }
 
+.maxwidth {
+	display: flex;
+	justify-content: space-around;
+}
 .row {
 	margin: 20px;
 }
@@ -314,7 +318,7 @@ textarea:focus, input:focus {
 	text-align: right;
 }
 
-#two-columns .maxwidth {
+#two-columns {
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -434,7 +438,7 @@ textarea:focus, input:focus {
 }
 
 .logo {
-	width: 15%;
+	width: 10%;
 	/* padding: 10px; */
 }
 
