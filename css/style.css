@@ -137,6 +137,14 @@ img {
 	margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+main {
+	margin: 20px;
+	padding: 20px 100px 20px 100px;
+}
+
+>>>>>>> parent of 8c678ce... fixed nav and logo alignment
 nav {
 	font-family: 'Amiro', sans-serif;
     padding-top: 25px;
@@ -152,7 +160,7 @@ nav a {
 
 p {
 	font-family: 'Amiro', sans-serif;
-	font-size: 1.5em;
+	/* font-size: 1.5em; */
 	line-height: 1.5em;
 	/* text-align: justify; */
 }
@@ -173,10 +181,6 @@ ul li {
 	color: var(--white);
 }
 
-.maxwidth {
-	display: flex;
-	justify-content: space-around;
-}
 .row {
 	margin: 20px;
 }
@@ -377,7 +381,7 @@ textarea:focus, input:focus {
 	text-align: right;
 }
 
-#two-columns {
+#two-columns .maxwidth {
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -497,7 +501,7 @@ textarea:focus, input:focus {
 }
 
 .logo {
-	width: 10%;
+	width: 15%;
 	/* padding: 10px; */
 }
 
