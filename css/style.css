@@ -755,7 +755,7 @@ li a {
 		padding: 10px;
 	}
 }
-}*/
+}
 
 @media only screen and (max-width: 621px) {
   .threecolumns li{
@@ -877,4 +877,4 @@ li a {
 	.fourcolumns {
 		display: none;
 	}
-}}}
+}}
