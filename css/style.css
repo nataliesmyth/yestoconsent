@@ -84,26 +84,6 @@ header {
 	border-bottom: 4px solid var(--white);
 }
 
-
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
-
-/* html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-} */
-
-/* body {
-	font-family: 'Arimo', sans-serif;
-	font-size: 16px;
-} */
-
 footer {
 	font-size: 1.25em;
 }
@@ -210,6 +190,12 @@ ul li {
 .index-text {
 	text-align: center;
 	/* margin: 40px; */
+}
+
+.maxwidth {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
 }
 
 .row:after {
@@ -373,7 +359,7 @@ textarea:focus, input:focus {
 	text-align: right;
 }
 
-#two-columns .maxwidth {
+#two-columns {
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -493,7 +479,7 @@ textarea:focus, input:focus {
 }
 
 .logo {
-	width: 15%;
+	width: 5%;
 	/* padding: 10px; */
 }
 
