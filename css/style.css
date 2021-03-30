@@ -52,7 +52,7 @@ h2 {
 
 header {
 	width: 100%;
-	position: fixed;
+	/* position: fixed; */
 	top: 0;
 	left: 0%;
 	z-index: 10;
@@ -799,27 +799,7 @@ li a {
 		padding: 10px;
 	}
 }
-<<<<<<< HEAD
 }
-=======
-
-/*#about {
-	font-size: 2.5em;
-	margin: .5em auto;
-	text-align: center;
-	text-transform: uppercase;
-	font-style: bold;
-	line-height: 1.5em;
-	background-color: #E582A2;
-	width: 50%;
-	float: right;
-}*/
-
-/*.threecolumns {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}*/
 
 /*.threecolumns > * {
 	width: 32%;
@@ -834,7 +814,6 @@ li a {
 	width: 2em;
 	margin: 1em auto;
 }*/
->>>>>>> parent of d9f9635... march events
 
 @media only screen and (max-width: 621px) {
   .threecolumns li{
