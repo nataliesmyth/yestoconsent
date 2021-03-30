@@ -19,7 +19,7 @@
 
 body {
 	min-height: 100vh;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .container {
@@ -118,13 +118,15 @@ img {
 }
 
 nav {
-	font-family: 'Amiro', sans-serif;
+
+	/* font-family: 'Amiro', sans-serif; */
     padding-top: 25px;
+	font-size: 1.5em;
 }
 
 nav a {
 	color: var(--black);
-	display: inline-block;
+	/* display: inline-block; */
 	padding: 10px;
 	text-decoration: none;
 	/* font-size: .85em; */
@@ -419,7 +421,7 @@ textarea:focus, input:focus {
 	background-color: #000;
 	color: #CCDDDD;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .BLM a {
@@ -614,9 +616,9 @@ li a {
 }
 
 .social {
-	text-align: right;
-	margin: 0 auto;
-	background-color: var(--blue);
+	/* text-align: right; */
+	/* margin: 0 auto; */
+	/* background-color: var(--blue); */
 	padding: 10px;
 }
 
