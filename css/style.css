@@ -194,7 +194,7 @@ ul li {
 .maxwidth {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 70px;
+	/* background-color: #fff; */
 }
 
 .row:after {
@@ -423,6 +423,10 @@ textarea:focus, input:focus {
 
 .BLM a {
 	color: #CCDDDD;
+}
+
+.BLM p {
+	margin-bottom: 0rem;
 }
 
 #verbatim {
