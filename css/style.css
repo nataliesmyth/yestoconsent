@@ -188,7 +188,8 @@ ul li {
 
 .index-text {
 	text-align: center;
-	/* margin: 40px; */
+	width: 36em;
+	margin: 0 auto;
 }
 
 .maxwidth {
@@ -489,6 +490,7 @@ textarea:focus, input:focus {
 .bookaworkshop {
 	font-size: 1.5em;
 	text-align: center;
+	margin-top: 20px;
 }
 
 .bookaworkshop a {
@@ -715,11 +717,6 @@ li a {
 
 	.fourcolumns a {
 		flex: none;
-	}
-
-	.indexphoto {	
-		margin: auto;
-		   width: 80%;
 	}
 
 	.right {
