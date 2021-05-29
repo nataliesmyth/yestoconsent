@@ -19,7 +19,6 @@ body {
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
-	line-height: 1.6;
 }
 
 h1,
@@ -32,7 +31,7 @@ h6 {
 }
 
 h1 {
-	font-size: 2em;
+	/* font-size: 2em; */
 	text-transform: uppercase;
 	color: var(--black);
 }
@@ -50,18 +49,18 @@ h2 {
 }
 
 h5 {
-	font-size: .75em;
+	font-size: 1em;
 	line-height: 2em;
 	padding-left: 1;
 }
 
 h6 {
-	font-size: 1em;
+	font-size: .75em;
 	line-height: 2em;
 }
 
 img {
-	width: 100%;
+	/* width: 100%; */
 	display: block;
 	margin: 0 auto;
 }
@@ -325,12 +324,12 @@ textarea:focus, input:focus {
 	color: var(--white);
 }
 
-.ourteam {
+/* .ourteam {
 	margin: 20px;
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
-}
+} */
 
 .ourteamleft {
 	width: 25%;
