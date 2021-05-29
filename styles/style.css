@@ -19,6 +19,7 @@ body {
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
+	line-height: 1.6;
 }
 
 h1,
@@ -35,19 +36,6 @@ h1 {
 	text-transform: uppercase;
 	color: var(--black);
 }
-
-h2 {
-	font-size: 2.7em;
-}
-
-header {
-	width: 100%;
-	/* position: fixed; */
-	top: 0;
-	left: 0%;
-	z-index: 10;
-}
-
 
 footer {
 	font-size: 1.25em;
@@ -78,6 +66,16 @@ img {
 	margin: 0 auto;
 }
 
+li {
+	display: inline;
+}
+
+nav {
+	display: inline;
+	position: relative;
+	bottom: 344px;
+}
+
 nav a {
 	color: var(--black);
 	/* display: inline-block; */
@@ -86,20 +84,13 @@ nav a {
 	/* font-size: .85em; */
 }
 
-p {
-	font-family: 'Amiro', sans-serif;
-	/* font-size: 1.5em; */
-	line-height: 1.5em;
-	/* text-align: justify; */
-}
-
 ul {
 	/* background: var(--red); */
 	padding: 20px;
 	list-style-type: none;
 }
 
-ul li {
+footer ul li {
 	background: var(--pink);
 	margin: 5px;
 	padding: 5px;
@@ -144,13 +135,13 @@ ul li {
 }
 
 .hero-content {
-	padding-top: 25px;
+	padding-top: 364px;
 	text-align: center;
 	color: white;
 }
 
 .hero-image {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(indexphoto_b&w.svg);
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url(indexphoto_b&w.svg);
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -358,20 +349,26 @@ textarea:focus, input:focus {
 	padding: 10px;
 }
 
-.BLM {
-	display: block;
-	background-color: #000;
+.blm {
+	/* Carbon by Atle Mo and Sebastien Grosjean */
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	
+	/* background-color: rgb(15, 15, 15); */
 	color: #CCDDDD;
 	text-align: center;
-	font-size: 1em;
+	margin: 0em;
+	padding: 1em;
 }
 
-.BLM a {
+.blm a {
 	color: #CCDDDD;
-}
-
-.BLM p {
-	margin-bottom: 0rem;
 }
 
 #verbatim {
@@ -383,11 +380,6 @@ textarea:focus, input:focus {
 	margin: 8em;
 	background-color: #f0f8ff;
 }
-
-/* .vleft {
-	text-align: center;
-	width: 30%;
-} */
 
 .vleft a {
 	text-decoration: none;
@@ -513,14 +505,6 @@ textarea:focus, input:focus {
 	border: 4px solid var(--red);
 }
 
-li p {
-	font-size: .75em;
-}
-
-li h4 {
-	line-height: 1.5em;
-}
-
 li a {
 	bottom: 0;
 	/* color: var(--red); */
@@ -536,10 +520,7 @@ li a {
 	display: flex;
 	flex-direction: column;
 	justify-content: right;
-	/* align-items: left; */
-	/* text-align: left; */
 	width: 30%;
-	/*height: 150px;*/
 }
 
 .container a { 
@@ -557,18 +538,7 @@ li a {
 	text-align: left;
 }
 
-.social {
-	/* text-align: right; */
-	/* margin: 0 auto; */
-	/* background-color: var(--blue); */
-	padding: 10px;
-}
 
-.social a {
-	display: inline-block;
-	width: 35px;
-	padding: 5px;
-}
 
 .navsmall {
 	float: left;
