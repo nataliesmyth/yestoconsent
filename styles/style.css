@@ -560,15 +560,11 @@ li a {
 }
 
 .no-hero {
-	bottom: 0px;
+	bottom: -50px;
 }
 
-.no-hero img {
-	width: 15%;
-}
-
-.description {
-	/* width: 25%; */
+.about-main {
+	margin-top: 8em;
 }
 
 .container {
