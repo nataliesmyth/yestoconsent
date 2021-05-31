@@ -37,9 +37,14 @@ h1 {
 	color: var(--black);
 }
 
+header {
+	margin: 0 auto;
+}
+
 .about-header {
 	line-height: 2em;
 	margin: 1em auto;
+	text-align: center;
 }
 
 .team-photo {
@@ -80,13 +85,20 @@ li {
 }
 
 nav {
-	text-align: center;
+	position: relative;
+	bottom: 350px;
+	display: flex;
+	justify-content: space-around;
 }
 
 nav a {
 	color: var(--black);
 	padding: 10px;
 	text-decoration: none;
+}
+
+.links:after {
+	width: 2em;
 }
 
 main {
@@ -166,6 +178,10 @@ footer ul li {
 	text-align: center;
 	width: 36em;
 	margin: 0 auto;
+}
+
+.logo {
+	width: 2rem;
 }
 
 .maxwidth {
@@ -527,6 +543,24 @@ li a {
 
 #workshop p {
 	font-size: 0.5em;
+}
+
+.team-name {
+	width: 20%;
+	text-align: center;
+}
+
+.team-member {
+	display: flex;
+	justify-content: space-around;
+}
+
+.no-hero {
+	bottom: 0px;
+}
+
+.description {
+	/* width: 25%; */
 }
 
 .container {
