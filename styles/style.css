@@ -563,7 +563,12 @@ li a {
 	bottom: -50px;
 }
 
-.about-main {
+.no-hero img {
+	width: 30%;
+}
+
+
+.about-main, .donate-main {
 	margin-top: 8em;
 }
 
