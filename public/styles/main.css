@@ -1,3 +1,22 @@
+#container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    flex: 6;
+    padding: 1% 2%;
+}
+
+.card {
+    width: 300px;
+    padding: 2%;
+    border: 2px solid lightgray;
+    display: inline-block;
+    text-align: center;
+}
+
 .fa {
     padding: 10px;
     margin: 10px;
